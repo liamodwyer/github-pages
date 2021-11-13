@@ -5,7 +5,7 @@ date: 0000-01-02    # Page order is set by date
 
 Open Git Bash.
 First we’ll configure your name and email address.
-```javascript
+```
 git config --global user.name "<username>"
 git config --global user.email "<email address>"
 ```
@@ -35,7 +35,7 @@ $ ls
 We have an empty folder.  We will create an empty git repository using our first git command `git init` (short for _initialise_)
 ```
 $ git init
-$ Initialized empty Git repository in <your file path>/gitlesson/.git/
+  Initialized empty Git repository in <your file path>/gitlesson/.git/
 ```
 
 When we use git via the command line, we preface each command with git, so that the computer knows we are trying to get git to do something, rather than some other program.
@@ -46,13 +46,16 @@ We’ll do a couple more shell commands now to see what has happened
 $ ls 			
 ```
 Our folder still shows as empty. If we add the `-a` flag to the `ls` command it will include hidden files, which the .git folder is.
-```bash
+```
 $ ls –a
+  .	..	.git
 ```
 Now the response includes the .git folder is. That is where all of the revision history for this repository will live)
 
-Now that it’s a git project we can check its current status (we’ll be doing this a lot)
-* `$ git status`
-  * `On branch master`
-  * `Initial commit`
-  * `Nothing to commit` 
+Now that our folder is a git project we can check its current status (we’ll be doing this a lot).
+```
+$ git status
+  On branch master
+  Initial commit
+  Nothing to commit
+``` 
