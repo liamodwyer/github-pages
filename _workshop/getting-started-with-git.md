@@ -11,7 +11,9 @@ $ git config --global user.email “<email address>"
 ```
 
 Configure the default text editor git uses (for example, when prompting for a commit message).
-* `$ git config --global core.editor "atom"`
+````Bash
+$ git config --global core.editor "atom"
+````
 
 As well as git commands we'll be using some shell commands in this lesson:
 * `$ pwd` is useful to orient yourself
