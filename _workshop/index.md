@@ -9,11 +9,11 @@ Version control is a name used for software which can help you record changes yo
 At its most basic level, version control software helps us register and track sets of changes made to files on our computer. We can then reason about and share those changes with others. As we build up sets of changes over time, we begin to see some benefits.
 
 #### Benefits of using version control?
-* __Collaboration__ - Version control allows us to define formalized ways we can work together and share writing and code. For example merging together sets of changes from different parties enables co-creation of documents and software across distributed teams.
-* __Versioning__ - Having a robust and rigorous log of changes to a file, without renaming files (v1, v2, final_copy)
-* __Rolling Back__ - Version control allows us to quickly undo a set of changes. This can be useful when new writing or new additions to code introduce problems.
-* __Understanding__ - Version control can help you understand how the code or writing came to be, who wrote or contributed particular parts, and who you might ask to help understand it better.
-* __Backup__ - While not meant to be a backup solution, using version control systems mean that your code and writing can be stored on multiple other computers.
+- [x] __Collaboration__ - Version control allows us to define formalized ways we can work together and share writing and code. For example merging together sets of changes from different parties enables co-creation of documents and software across distributed teams.
+- [x] __Versioning__ - Having a robust and rigorous log of changes to a file, without renaming files (v1, v2, final_copy)
+- [x] __Rolling Back__ - Version control allows us to quickly undo a set of changes. This can be useful when new writing or new additions to code introduce problems.
+- [x] __Understanding__ - Version control can help you understand how the code or writing came to be, who wrote or contributed particular parts, and who you might ask to help understand it better.
+- [x] __Backup__ - While not meant to be a backup solution, using version control systems mean that your code and writing can be stored on multiple other computers.
 
 There are many more reasons to use version control, and we’ll explore some of these in the library context, but first let’s learn a bit about a popular version control tool called **Git**.
 
