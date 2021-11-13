@@ -5,7 +5,7 @@ date: 0000-01-02    # Page order is set by date
 
 Open Git Bash.
 First we’ll configure your name and email address.
-```shell
+```Bash
 $ git config --global user.name “<username>"
 $ git config --global user.email “<email address>"
 ```
