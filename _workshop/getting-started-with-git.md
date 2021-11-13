@@ -5,8 +5,8 @@ date: 0000-01-02    # Page order is set by date
 
 Open Git Bash.
 First we’ll configure your name and email address.
-* `$ git config --global user.name “<username>"`	configure your user name
-* `$ git config --global user.email “<email address>"` # configure your user email
+* `$ git config --global user.name “<username>"` configure your user name
+* `$ git config --global user.email “<email address>"` configure your user email
 
 Configure the default text editor git uses (for example, when prompting for a commit message).
 * `$ git config --global core.editor "atom"`
@@ -24,8 +24,9 @@ When we use git via the command line, we preface each command with git, so that 
 
 * `$ ls` 			(lists files in the directory you are in)
 * `$ ls –a`		(includes hidden files – which the .git folder is. That is where all of the revision history for this repository will live)
+
 Now that it’s a git project we can check its current status (we’ll be doing this a lot)
 * `$ git status`
-On branch master
-Initial commit
-Nothing to commit 
+  * `On branch master`
+  * `Initial commit`
+  * `Nothing to commit` 
