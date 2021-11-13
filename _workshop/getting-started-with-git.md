@@ -5,8 +5,10 @@ date: 0000-01-02    # Page order is set by date
 
 Open Git Bash.
 First we’ll configure your name and email address.
-* `$ git config --global user.name “<username>"` configure your user name
-* `$ git config --global user.email “<email address>"` configure your user email
+```console
+$ git config --global user.name “<username>"
+$ git config --global user.email “<email address>"
+```
 
 Configure the default text editor git uses (for example, when prompting for a commit message).
 * `$ git config --global core.editor "atom"`
