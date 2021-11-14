@@ -1,5 +1,5 @@
 ---
-title: Sharing your work on Github     # The title of the page
+title: Sharing with Github     # The title of the page
 date: 0000-01-04    # Page order is set by date
 ---
 
@@ -55,5 +55,5 @@ $ cd pc
 $ git clone https://github.com/liamodwyer/gitlesson.git
 $ ls 					(to show that the gitlesson directory is now there)
 $ cd gitlesson 			(to move into that repository)
-So we have essentially an up-to-date repository in three places - two separate git repositories and one on github.
 ```
+So we have essentially an up-to-date repository in three places - two separate git repositories and one on github.
