@@ -6,6 +6,8 @@ date: 0000-01-01    # Page order is set by date
 ### What is Version Control
 Version control is a name used for software which can help you record changes you make to the files in a directory on your computer. Version control software and tools (such as Git and Subversion/SVN) are often associated with software development, and increasingly, they are being used to collaborate in research and academic environments. Version control systems work best with plain text files such as documents or computer code, but modern version control systems can be used to track changes in any type of file.
 
+Version control isn't just for code. It's for anything you want to track. Using Git to manage a writing project gives you the ability to view multiple drafts at the same time, see differences between those drafts, and even roll back to a previous version. And if you're comfortable doing so, you can then share your work with others on GitHub or other central git repositories.
+
 At its most basic level, version control software helps us register and track sets of changes made to files on our computer. We can then reason about and share those changes with others. As we build up sets of changes over time, we begin to see some benefits.
 
 #### Benefits of using version control?
