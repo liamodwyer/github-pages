@@ -58,10 +58,10 @@ GitHub hosts many open-licensed projects and allows any user to fork any public 
 
 The team can choose to use Git by itself to track changes and resolve conflicts or they can choose to use GitHub to host the project so that users can collaborate and review changes on the Web. Git will preserve the original metadata as well as all edits. GitHub will facilitate discussion about what changes should be made, who should make them, and why.
 
-💡 **Key Points:**
+#### 💡 Key Points:
 
-✅ Version control helps track changes to files and projects. It is like an unlimited 'undo'
+✅ Version control helps track changes to files and projects, like an unlimited 'undo'
 
-✅ Version control can be useful for individuals or groups of people working collaboratively
+✅ It can be useful for both individuals and groups of people
 
 ✅ Git and github are not the same
