@@ -3,18 +3,21 @@ title: Version Control with Git  # The title of the page
 date: 0000-01-01    # Page order is set by date
 ---
 
-### What is Version Control and Why Should I Use It?
-Version control is a name used for software which can help you record changes you make to the files in a directory on your computer. It can be useful to keep track of when you made changes to your own work and when, and without getting into this situation:
+### What is Version Control?
+Version control is a name used for software which can help you record changes you make to the files in a directory on your computer.
 
-![phdcomics final_copy](./assets/images/phdcomics_final.png "phd")
+It can be useful to keep track of when you made changes to your own work and when, and without getting into this situation:
 
-Version control software and tools (such as Git and Subversion/SVN) are often associated with software development, and increasingly, they are being used to collaborate in research and academic environments. Version control systems work best with plain text files such as documents or computer code, but modern version control systems can be used to track changes in any type of file.
+<p align="center">
+  <img src="./assets/images/phdcomics_final.png">
+</p>
 
-Version control isn't just for code. It's for anything you want to track. Using Git to manage a writing project gives you the ability to view multiple drafts at the same time, see differences between those drafts, and even roll back to a previous version. And if you're comfortable doing so, you can then share your work with others on GitHub or other central git repositories.
+###  Why Should I Use It?
+Version control software and tools such as __Git__ and __SVN__ are often associated with software development and did originate from that community. But version control isn't just for code. It's for anything you want to track. Using Git to manage a writing project enables you to view multiple drafts at the same time, see differences between those drafts, and roll back changes. And if you're comfortable doing so, you can then share your work with others on GitHub or other central git repositories.
 
-At its most basic level, version control software helps us register and track sets of changes made to files on our computer. We can then reason about and share those changes with others. As we build up sets of changes over time, we begin to see some benefits.
+So at its most basic level, __version control software helps us register and track sets of changes made to files on our computer__.
 
-#### Benefits of using version control?
+#### Benefits of using version control
 - [x] __Collaboration__ - Version control allows us to define formalized ways we can work together and share writing and code. For example merging together sets of changes from different parties enables co-creation of documents and software across distributed teams.
 - [x] __Versioning__ - Having a robust and rigorous log of changes to a file, without renaming files (v1, v2, final_copy)
 - [x] __Rolling Back__ - Version control allows us to quickly undo a set of changes. This can be useful when new writing or new additions to code introduce problems.
