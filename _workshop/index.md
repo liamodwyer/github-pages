@@ -3,7 +3,7 @@ title: Version Control with Git  # The title of the page
 date: 0000-01-01    # Page order is set by date
 ---
 
-### What is Version Control?
+### What is Version Control and Why Should I Use It?
 Version control is a name used for software which can help you record changes you make to the files in a directory on your computer.
 
 It can be useful to keep track of when you made changes to your own work and when, and without getting into this situation:
@@ -12,10 +12,11 @@ It can be useful to keep track of when you made changes to your own work and whe
   <img src="./assets/images/phdcomics_final.png">
 </p>
 
-###  Why Should I Use It?
-Version control software and tools such as __Git__ and __SVN__ are often associated with software development and did originate from that community. But version control isn't just for code. It's for anything you want to track. Using Git to manage a writing project enables you to view multiple drafts at the same time, see differences between those drafts, and roll back changes. And if you're comfortable doing so, you can then share your work with others on GitHub or other central git repositories.
+Version control software and tools such as __Git__ and __SVN__ are often associated with software development and did originate from that community. __*But version control isn't just for code.*__ It's for anything you want to track.
 
-So at its most basic level, __version control software helps us register and track sets of changes made to files on our computer__.
+For example, using Git to manage a writing project enables you to view multiple drafts at the same time, see differences between those drafts, and roll back changes. And if you're comfortable doing so, you can then share your work with others on GitHub or other central git repositories.
+
+So at its most basic level, __*version control software helps us register and track sets of changes made to files on our computer*__.
 
 #### Benefits of using version control
 - [x] __Collaboration__ - Version control allows us to define formalized ways we can work together and share writing and code. For example merging together sets of changes from different parties enables co-creation of documents and software across distributed teams.
@@ -24,12 +25,13 @@ So at its most basic level, __version control software helps us register and tra
 - [x] __Understanding__ - Version control can help you understand how the code or writing came to be, who wrote or contributed particular parts, and who you might ask to help understand it better.
 - [x] __Backup__ - While not meant to be a backup solution, using version control systems mean that your code and writing can be stored on multiple other computers.
 
-There are many more reasons to use version control, and we’ll explore some of these in the library context, but first let’s learn a bit about a popular version control tool called **Git**.
+There are many more reasons to use version control, and we’ll explore some of these in the library context, but first let’s learn a bit about a popular version control tool called **_Git_**.
 
 ### What are Git and GitHub?
 We often hear the terms Git and GitHub used interchangeably but they are slightly different things.
 
-***Git*** is one of the most widely used version control systems in the world. It is a free, open source tool that can be downloaded to your local machine and used for logging all changes made to a group of designated computer files (referred to as a “git repository” or “repo” for short) over time. It can be used to control file versions locally by you alone on your computer, but is perhaps most powerful when employed to coordinate simultaneous work on a group of files shared among distributed groups of people.
+#### Git
+**_Git_** is one of the most widely used version control systems in the world. It is a free, open source tool that can be downloaded to your local machine. It can be used to control file versions locally by you alone on your computer, but is perhaps most powerful when employed to coordinate simultaneous work on a group of files shared among distributed groups of people.
 
 Rather than emailing documents with tracked changes and some comments and renaming different versions of files (example.txt, exampleV2.txt, exampleV3.txt) to differentiate them, we can use Git to save (or in Git parlance, “commit”) all that information with the document itself. This makes it easy to get an overview of all changes made to a file over time by looking at a log of all the changes that have been made. And all earlier versions of each file still remain in their original form: they are not overwritten, should we ever wish to “roll back” to them.
 
@@ -40,7 +42,8 @@ How can understanding Git help with work in libraries?
 * Enables you to contribute to, collaborate on, and support digital research projects
 * Enables you to control changes to your files over time without keeping multiple copies of those files
 
-***GitHub*** on the other hand is a popular website for hosting and sharing Git repositories remotely. It offers a web interface and provides functionality and a mixture of both free and paid services for working with such repositories. The majority of the content that GitHub hosts is open source software, though increasingly it is being used for other projects such as open access journals (e.g. Journal of Open Source Software), blogs, and regularly updated text books. In addition to GitHub, there are other Git hosting services that offer many similar features such as GitLab, Bitbucket and Gitee.
+#### Github
+**_GitHub_**, on the other hand, is a popular website for hosting and sharing Git repositories. It offers a web interface and provides functionality and a mixture of both free and paid services for working with such repositories. The majority of the content that GitHub hosts is open source software, though increasingly it is being used for other projects such as open access journals (e.g. Journal of Open Source Software), blogs, and regularly updated text books. In addition to GitHub, there are other Git hosting services that offer many similar features such as GitLab, Bitbucket and Gitee.
 
 How can GitHub help with work in libraries?
 
