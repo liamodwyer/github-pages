@@ -24,16 +24,16 @@ For example, using Git to manage a writing project enables you to
 
 So at its most basic level, __*version control software helps us register and track sets of changes made to files on our computer*__.
 
+***
 
-> #### Benefits of using version control
-> - [x] __Collaboration__ - Version control allows us to define formalized ways we can work together and share writing and code. For example merging together sets of changes from different parties enables co-creation of documents and software across distributed teams.
-> - [x] __Versioning__ - Having a robust and rigorous log of changes to a file, without renaming files (v1, v2, final_copy)
-> - [x] __Rolling Back__ - Version control allows us to quickly undo a set of changes. This can be useful when new writing or new additions to code introduce problems.
-> - [x] __Understanding__ - Version control can help you understand how the code or writing came to be, who wrote or contributed particular parts, and who you might ask to help understand it better.
-> - [x] __Backup__ - While not meant to be a backup solution, using version control systems mean that your code and writing can be stored on multiple other computers.
+#### Benefits of using version control
+- [x] __Collaboration__ - Version control allows us to define formalized ways we can work together and share writing and code. For example merging together sets of changes from different parties enables co-creation of documents and software across distributed teams.
+- [x] __Versioning__ - Having a robust and rigorous log of changes to a file, without renaming files (v1, v2, final_copy)
+- [x] __Rolling Back__ - Version control allows us to quickly undo a set of changes. This can be useful when new writing or new additions to code introduce problems.
+- [x] __Understanding__ - Version control can help you understand how the code or writing came to be, who wrote or contributed particular parts, and who you might ask to help understand it better.
+- [x] __Backup__ - While not meant to be a backup solution, using version control systems mean that your code and writing can be stored on multiple other computers.
 
-
-
+***
 
 ### What are Git and GitHub?
 We often hear the terms Git and GitHub used interchangeably but they are slightly different things.
