@@ -33,23 +33,20 @@ So at its most basic level, __*version control software helps us register and tr
 > - [x] __Backup__ - While not meant to be a backup solution, using version control systems mean that your code and writing can be stored on multiple other computers.
 
 
-***
+
 
 ### What are Git and GitHub?
 We often hear the terms Git and GitHub used interchangeably but they are slightly different things.
 
-**_Git_** is one of the most widely used version control systems in the world. It is a free, open source tool that can be downloaded to your local machine and used for logging all changes made to a group of designated computer files (referred to as a “git repository” or “repo” for short) over time. It can control file versions stored locally by you on your computer, or to coordinate simultaneous work on a group of files shared among groups of people.
+**_Git_** is one of the most widely used version control systems in the world. It is a free, open source tool that can be downloaded to your local machine and used for logging all changes made to a group of files (referred to as a “git repository” or “repo” for short) over time. It can control file versions locally on your computer, or on files worked on by groups of people.
 
-Rather than having multiple documents with tracked changes or some comments and renaming different versions of files (as in the image above) to differentiate them, we can use Git to save (or in Git parlance, `commit`) all that information with the document itself.
+Git saves (or in Git parlance, _commits_) changes as snapshots, and manages all these snapshots for you in the background. We can access a log of all the changes that have been made. And all earlier versions of each file still remain in their original form: they are not overwritten, should we ever wish to “roll back” to them.
 
-We can access a log of all the changes that have been made. And all earlier versions of each file still remain in their original form: they are not overwritten, should we ever wish to “roll back” to them.
+Git was originally developed to help software developers work collaboratively, but it can be and is used for managing revisions to any file type, including text documents and spreadsheets. Since Word and PDF documents contain special formatting, Git unfortunately cannot version control, though both can be stored in Git repositories.
 
-Git was originally developed to help software developers work collaboratively on software projects, but it can be and is used for managing revisions to any file type on a computer system, including text documents and spreadsheets. Once installed, interaction with Git is done through the Command Prompt in Windows, or the Terminal on Mac/Linux. Since Word documents contain special formatting, Git unfortunately cannot version control those, nor can it version control PDFs, though both file types can be stored in Git repositories.
-
-> So git:
->
-> * Enables you to contribute to, collaborate on, and support digital research projects
-> * Enables you to control changes to your files over time without keeping multiple copies of those files
+Git:
+* Enables you to contribute to, collaborate on, and support digital research projects
+* Enables you to control changes to your files over time without keeping multiple copies of those files
 
 **_GitHub_**, on the other hand, is a popular website for hosting and sharing Git repositories. It offers a web interface and functionality for working with such repositories. A lot of the content on GitHub is open source software, though increasingly it is being used for other projects such as open access journals (e.g. Journal of Open Source Software), blogs, and academic text books.
 
@@ -64,6 +61,6 @@ GitHub hosts many open-licensed projects and allows any user to fork any public 
 
 The team can choose to use Git by itself to track changes and resolve conflicts or they can choose to use GitHub to host the project so that users can collaborate and review changes on the Web. Git will preserve the original metadata as well as all edits. GitHub will facilitate discussion about what changes should be made, who should make them, and why.
 
-> #### Key Points:
-> * Version control helps track changes to files and projects
-> * Git and github are not the same
+💡 **Key Points:**
+✅ Version control helps track changes to files and projects
+✅ Git and github are not the same
