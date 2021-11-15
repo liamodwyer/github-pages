@@ -38,19 +38,18 @@ So at its most basic level, __*version control software helps us register and tr
 ### What are Git and GitHub?
 We often hear the terms Git and GitHub used interchangeably but they are slightly different things.
 
-**_Git_** is one of the most widely used version control systems in the world. It is a free, open source tool that can be downloaded to your local machine and used for logging all changes made to a group of files (referred to as a “git repository” or “repo” for short) over time. It can control file versions locally on your computer, or on files worked on by groups of people.
+**_Git_** is a widely used version control system. It is a free, open source tool that can be downloaded to your local machine and used for logging changes made to a group of files (referred to as a “git repository” or “repo” for short) over time.
 
-Git saves (or in Git parlance, _commits_) changes as snapshots, and manages all these snapshots for you in the background. We can access a log of all the changes that have been made. And all earlier versions of each file still remain in their original form: they are not overwritten, should we ever wish to “roll back” to them.
-
-Git was originally developed to help software developers work collaboratively, but it can be and is used for managing revisions to any file type, including text documents and spreadsheets.
-(_Note: certain file types like MS Word and PDF contain special formatting which Git unfortunately cannot version control, though both can be stored in git repositories._)
+* Git was originally developed to help software developers work collaboratively, but it can be and is used for managing revisions to any file type, including text documents and spreadsheets. (_Note: certain file types like MS Word and PDF contain special formatting which Git unfortunately cannot version control, though both can be stored in git repositories._)
+* Git saves (or in git parlance, _commits_) changes as snapshots, and manages these for you in the background. Earlier versions of each file still remain in their original form: they are not overwritten, should we ever wish to “roll back” to them.
+* We can access a log of all the changes that have been made at any time we need to.
 
 **_GitHub_**, on the other hand, is a website for hosting and sharing git repositories. It offers a web interface and functionality for working with such repositories.
 
 * As with git, a lot of the content on GitHub is software-related, though increasingly it is being used for other projects such as open access journals (e.g. Journal of Open Source Software), blogs, and academic text books.
-* There are other Git hosting services that offer many similar features to Github such as GitLab and Bitbucket.
-* Github is an alternative means for publishing content online. Any GitHub repository can have its own project website, blog and wiki using GitHub Pages.
-* GitHub hosts many open-licensed projects. By _forking_ a project, any GitHub user can almost instantaneously create their own version of an existing project. A _forked_ project could be the basis for a new project, or it could be used to test new features and later be merged back into the original.
+* There are other Git hosting services that offer many similar features to GitHub such as GitLab and Bitbucket.
+* GitHub can be used to publish content online. Any GitHub repository can have its own project website, blog and wiki using GitHub Pages.
+* GitHub hosts many open-licensed projects. By _forking_ one of these, a GitHub user can quickly create their own version of an existing project. A _forked_ project could be the basis for a new project, or it could be used to test new features and later be merged back into the original.
 
 So git and GitHub are related, but different. You can choose to
 1. use git by itself to track changes and resolve conflicts or
