@@ -64,5 +64,4 @@ The team can choose to use Git by itself to track changes and resolve conflicts 
 💡 **Key Points:**
 
 ✅ Version control helps track changes to files and projects
-
 ✅ Git and github are not the same
