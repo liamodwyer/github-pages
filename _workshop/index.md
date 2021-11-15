@@ -11,7 +11,7 @@ It can be useful to keep track of when you made changes to your own work and whe
 <p align="center">
   <img src="./assets/images/phdcomics_final.png">
 </p>
-[[“Piled Higher and Deeper”](https://phdcomics.com/comics/archive.php?comicid=1531) by Jorge Cham
+[“Piled Higher and Deeper”](https://phdcomics.com/comics/archive.php?comicid=1531) by Jorge Cham
 
 ### Why Should I Use It?
 Version control software and tools such as __Git__ and __SVN__ are often associated with software development and did originate from that community. But __*version control isn't just for code.*__ It's for anything you want to track.
@@ -24,6 +24,7 @@ For example, using Git to manage a writing project enables you to
 
 So at its most basic level, __*version control software helps us register and track sets of changes made to files on our computer*__.
 
+
 > #### Benefits of using version control
 > - [x] __Collaboration__ - Version control allows us to define formalized ways we can work together and share writing and code. For example merging together sets of changes from different parties enables co-creation of documents and software across distributed teams.
 > - [x] __Versioning__ - Having a robust and rigorous log of changes to a file, without renaming files (v1, v2, final_copy)
@@ -31,7 +32,6 @@ So at its most basic level, __*version control software helps us register and tr
 > - [x] __Understanding__ - Version control can help you understand how the code or writing came to be, who wrote or contributed particular parts, and who you might ask to help understand it better.
 > - [x] __Backup__ - While not meant to be a backup solution, using version control systems mean that your code and writing can be stored on multiple other computers.
 
-There are many more reasons to use version control, and we’ll explore some of these in the library context, but first let’s learn a bit about a popular version control tool called **Git**.
 
 ***
 
@@ -64,6 +64,6 @@ GitHub hosts many open-licensed projects and allows any user to fork any public 
 
 The team can choose to use Git by itself to track changes and resolve conflicts or they can choose to use GitHub to host the project so that users can collaborate and review changes on the Web. Git will preserve the original metadata as well as all edits. GitHub will facilitate discussion about what changes should be made, who should make them, and why.
 
-> :bulb: Key Points:
-> :heavy_check_mark: Version control helps track changes to files and projects
-> :heavy_check_mark: Git and github are not the same
+:bulb: Key Points:
+:heavy_check_mark: Version control helps track changes to files and projects
+:heavy_check_mark: Git and github are not the same
