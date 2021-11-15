@@ -43,20 +43,22 @@ We often hear the terms Git and GitHub used interchangeably but they are slightl
 Git saves (or in Git parlance, _commits_) changes as snapshots, and manages all these snapshots for you in the background. We can access a log of all the changes that have been made. And all earlier versions of each file still remain in their original form: they are not overwritten, should we ever wish to “roll back” to them.
 
 Git was originally developed to help software developers work collaboratively, but it can be and is used for managing revisions to any file type, including text documents and spreadsheets.
-(_Note: certain file types like MS Word and PDF contain special formatting which Git unfortunately cannot version control, though both can be stored in Git repositories._)
+(_Note: certain file types like MS Word and PDF contain special formatting which Git unfortunately cannot version control, though both can be stored in git repositories._)
 
-**_GitHub_**, on the other hand, is a popular website for hosting and sharing Git repositories. It offers a web interface and functionality for working with such repositories. A lot of the content on GitHub is open source software, though increasingly it is being used for other projects such as open access journals (e.g. Journal of Open Source Software), blogs, and academic text books.
+**_GitHub_**, on the other hand, is a website for hosting and sharing git repositories. It offers a web interface and functionality for working with such repositories.
 
-In addition to GitHub, there are other Git hosting services that offer many similar features such as GitLab, Bitbucket and Gitee.
+* As with git, a lot of the content on GitHub is software-related, though increasingly it is being used for other projects such as open access journals (e.g. Journal of Open Source Software), blogs, and academic text books.
+* There are other Git hosting services that offer many similar features to Github such as GitLab and Bitbucket.
+* Github is an alternative means for publishing content online. Any GitHub repository can have its own project website, blog and wiki using GitHub Pages.
+* GitHub hosts many open-licensed projects. By _forking_ a project, any GitHub user can almost instantaneously create their own version of an existing project. A _forked_ project could be the basis for a new project, or it could be used to test new features and later be merged back into the original.
 
-> How can GitHub help with work in libraries?
->
-> * A place to discover and reuse (“fork”) a huge amount of openly licensed digital projects and open source software
-> * A new and alternative means for publishing content online. Any GitHub repository can have its own project website, blog and wiki using GitHub Pages.
+So git and GitHub are related, but different. You can choose to
+1. use git by itself to track changes and resolve conflicts or
+2. use GitHub to host a project that users can collaborate on or to publish it
 
-GitHub hosts many open-licensed projects and allows any user to fork any public project. By clicking the “fork” button, any GitHub user can almost instantaneously create their own version of an existing project. That “forked” project can be used as the basis for a new project, or can be used to work out new features that can be merged back into the original. (From: GitHub for Academics )
+Git will preserve the original metadata as well as all edits. GitHub will facilitate discussion about what changes should be made, who should make them, and why.
 
-The team can choose to use Git by itself to track changes and resolve conflicts or they can choose to use GitHub to host the project so that users can collaborate and review changes on the Web. Git will preserve the original metadata as well as all edits. GitHub will facilitate discussion about what changes should be made, who should make them, and why.
+***
 
 #### 💡 Key Points:
 
