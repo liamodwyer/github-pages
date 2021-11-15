@@ -60,6 +60,8 @@ The team can choose to use Git by itself to track changes and resolve conflicts 
 
 💡 **Key Points:**
 
-✅ Version control helps track changes to files and projects
+✅ Version control helps track changes to files and projects. It is like an unlimited 'undo'
+
+✅ Version control can be useful for individuals or groups of people working collaboratively
 
 ✅ Git and github are not the same
