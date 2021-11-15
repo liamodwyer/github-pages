@@ -42,11 +42,8 @@ We often hear the terms Git and GitHub used interchangeably but they are slightl
 
 Git saves (or in Git parlance, _commits_) changes as snapshots, and manages all these snapshots for you in the background. We can access a log of all the changes that have been made. And all earlier versions of each file still remain in their original form: they are not overwritten, should we ever wish to “roll back” to them.
 
-Git was originally developed to help software developers work collaboratively, but it can be and is used for managing revisions to any file type, including text documents and spreadsheets. Since Word and PDF documents contain special formatting, Git unfortunately cannot version control, though both can be stored in Git repositories.
-
-Git:
-* Enables you to contribute to, collaborate on, and support digital research projects
-* Enables you to control changes to your files over time without keeping multiple copies of those files
+Git was originally developed to help software developers work collaboratively, but it can be and is used for managing revisions to any file type, including text documents and spreadsheets.
+(_Note: certain file types like MS Word and PDF contain special formatting which Git unfortunately cannot version control, though both can be stored in Git repositories._)
 
 **_GitHub_**, on the other hand, is a popular website for hosting and sharing Git repositories. It offers a web interface and functionality for working with such repositories. A lot of the content on GitHub is open source software, though increasingly it is being used for other projects such as open access journals (e.g. Journal of Open Source Software), blogs, and academic text books.
 
