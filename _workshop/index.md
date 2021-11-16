@@ -16,15 +16,11 @@ It can be useful to keep track of when you made changes to your own work and whe
 ### Why Should I Use It?
 Version control software and tools such as __git__ and __SVN__ are often associated with software development and did originate from that community. But __*version control isn't just for code.*__ It's for anything you want to track.
 
-For example, using Git to manage a writing project enables you to
-* view multiple drafts at the same time
-* see differences between those drafts
-* roll back changes
-* and if you're comfortable doing so, you can then share your work with others on GitHub or other central git repositories.
+For example, using git to manage a writing project enables you to view multiple drafts, see differences between those drafts, roll back changes
+and if you want to you can then share your work with others on GitHub.
 
 So at its most basic level, __*version control software helps us register and track sets of changes made to files on our computer*__.
 
-***
 
 #### Benefits of using version control
 - [x] __Collaboration__ - Version control allows us to define formalized ways we can work together and share writing and/or code.
