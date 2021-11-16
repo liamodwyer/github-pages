@@ -1,11 +1,11 @@
 ---
-title: Adding and Committing     # The title of the page
+title: Tracking Changes     # The title of the page
 date: 0000-01-03    # Page order is set by date
 ---
 
 We will create a new file so that we can add it. We'll make a `.md` file which is _markdown_ format, a lightweight markup language (like a very stripped- back version of html).
 
-📌 _Markdown can be used with git and github to build web pages and websites. We'll use another shell command (`touch`) to create the empty file._
+📌 _Markdown can be used with git and github to build web pages and websites. We'll use another shell command `touch` to create the empty file._
 ```
 $ touch article.md
 ```
@@ -21,38 +21,44 @@ $ git status
   Initial Commit
   Untracked files
 ```
-Git has noticed the new file. But it calls it an untracked file. We’ll add it as it tells us we should:
+Git has noticed the new file. But it calls it an _untracked_ file. We’ll _add_ it as it prompts us to and tell Git to track this file:
 ```
 $ git add article.md
 ```
-Let’s add some content to our empty `article.md` file. We can add content from the command line combining `echo` and `>` which directs the content to whatever we put after the `>`. We'll use the `cat` to check that the output has been written to the file:
+Let’s add some content to our empty `article.md` file.
+📌 _We can add content from the command line combining `echo` and `>` which directs the content to whatever we put after the `>`. We'll use the `cat` to check that the output has been written to the file:_
 ```
 $ echo “# How To Use Git to Manage Your Writing Project” > article.md
 $ cat article.md
 $ git status  	
-  On branch master
+  On branch main
   Initial commit
   changes to be committed
   new file: article.md
   Changes not staged for commit
   modified: article.md
 ```
-Git has spotted the new changes to our file, but we haven’t staged (or _added_) them yet. Let's do that and then _commit_ it to our repository, which will be our first commit or snapshot. When we use the 'commit' command we have to add a message, signified by the `-m` flag. These commit messages should be meaningful so that they can be recognised as a point in time of a file or project, should we wish to roll back to it.
+So Git has spotted the new changes to our file, but we haven’t staged (or _added_) them yet. Let's do that and then _commit_ it to our repository, which will be our first commit or snapshot.
+📌 _When we use the 'commit' command we have to add a message, signified by the `-m` flag. These commit messages should be meaningful so that they can be recognised as a point in time of a file or project, should we wish to roll back to it._
 ```
 $ git add article.md
 $ git commit -m 'Add initial version of article'
 ```
+📌 When we run `git commit`, Git takes everything we have told it to save by using `git add` and stores a copy permanently inside the special `.git directory`. This permanent copy is called a commit (or revision) and has a unique hash or identifier which has a short and long version.
+
 Now if we do a _git status_ we should see everything is up to date:
 ```
 $ git status
-  On branch master
+  On branch main
   Nothing to commit, working tree clean  
 ```
-We can check our repository history using `git log`. Let's make a new entry to our `article.md` file. We can use `>>` to append content (rather than overwrite)
+We can check our repository history using `git log`. This lists all commits made to a repository in reverse chronological order. The listing for each commit includes the commit’s full identifier (which starts with the same characters as the short identifier printed by the git commit command earlier), the commit’s author, when it was created, and the log message Git was given when the commit was created.
+
+Let's make a new entry to our `article.md` file. We can use `>>` to append content (rather than overwrite)
 ```
 $ echo "### Introduction" >> article.md
 ```
-No do a `git status` and see if git recognises that a change has been made.
+Now do a `git status` to check if git recognises that a change has been made.
 If we want to see what the changes or differences are we can do that by using another git command, `git diff`
 ```
 $ git diff
@@ -61,8 +67,8 @@ $ git diff
   --- a/article.md
   +++ b/article.md
   @@ -1 +1,2 @@
-   Some text here
-   +Some new text here
+   # How To Use Git to Manage Your Writing Project
+  +### Introduction
 ```
 It’s a little cryptic as it’s meant for text editors but we’ll go through it to see what it is saying.
 1.	The first line tells us that Git is producing output similar to the Unix diff command comparing the old and new versions of the file.
@@ -75,7 +81,8 @@ We’ll go ahead and try and commit this.
 ```
 $ git commit –m ‘Add section header’
 ```
-This gives an error because we have forgotten to `add` the file update first. You have to add or stage a change before you can commit it. This can seem slow or clunky but it can be more efficient as it enables us to select and group changes. We don’t have to commit everything if we don’t want to include all our current draft files. So `git add` specifies what will go in a snapshot but `git commit` takes the snapshot.
+Oops. This gives an error because we have forgotten to `add` the file update first. You have to add or stage a change before you can commit it.
+
 ```
 $ git add article.md
 ```
@@ -89,7 +96,18 @@ So let’s go through that again of
 * staging that change  
 * and then committing that change
 
-Instead of using echo again we are going to open atom - this time just as a text editor - we’ll come back to our git command line in a minute. So
+> Git insists that we add files to the set we want to commit before actually committing anything. This allows us to commit our changes in stages and capture changes in logical portions rather than only large batches.
+For example, suppose we’re adding a few citations to relevant research to our thesis. We might want to commit those additions, and the corresponding bibliography entries, but not commit some of our work drafting the conclusion (which we haven’t finished yet).
+
+>To allow for this, Git has a special staging area where it keeps track of things that have been added to the current changeset but not yet committed.
+
+📌 If you think of Git as taking snapshots of changes over the life of a project, `git add` specifies what will go in a snapshot (putting things in the staging area), and `git commit` then actually takes the snapshot, and makes a permanent record of it (as a commit). If you don’t have anything staged when you type `git commit`, Git will prompt you to use `git commit -a` or `git commit --all`, which is kind of like gathering everyone to take a group photo! However, it’s almost always better to explicitly add things to the staging area, because you might commit changes you forgot you made. (Going back to the group photo simile, you might get an extra with incomplete makeup walking on the stage for the picture because you used -a!) Try to stage things manually, or you might find yourself searching for “git undo commit” more than you would like!
+
+<p align="center">
+  <img src="./assets/images/git-staging-area.svg">
+</p>
+
+Instead of using echo again we are going to open atom - we’ll come back to our git command line in a minute. So
 ```
 $ echo "First line of my intro" >> article.md
 $ git diff
