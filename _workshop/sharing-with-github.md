@@ -1,6 +1,6 @@
 ---
 title: Sharing with Github     # The title of the page
-date: 0000-01-04    # Page order is set by date
+date: 0000-01-05    # Page order is set by date
 ---
 
 So we’ve done a lot on git. We’re now going to look at how along with git to preserve and record your own work, we can use github to share that - including all its recorded changes. This can enable group collaboration or give you a stable way to work from two different machines.

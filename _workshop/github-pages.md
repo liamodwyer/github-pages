@@ -1,6 +1,6 @@
 ---
 title: Github Pages     # The title of the page
-date: 0000-01-05    # Page order is set by date
+date: 0000-01-06    # Page order is set by date
 ---
 
 _Github Pages_ is a github service which lets you publish a website directly on github from a git repository. You can use html to build web pages but they also provide Jekyll which renders __markdown__ into html.

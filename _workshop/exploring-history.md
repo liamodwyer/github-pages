@@ -5,7 +5,7 @@ date: 0000-01-04    # Page order is set by date
 
 As we saw in the previous episode, we can refer to commits by their identifiers. You can refer to the most recent commit of the working directory by using the identifier `HEAD`.
 
-We’ve been adding one line at a time to `gitlesson.md`. It’s easy to track our progress by looking, so let’s do that using our HEADs. Before we start, let’s make a change to gitlesson.md, adding yet another line.
+We’ve been adding one line at a time to `article.md`. We can track our progress in different ways but let’s do it using `HEAD`. Before we start, let’s make a further change to article.md, adding yet another line.
 
 ```
 $ echo “an ill-considered change” > article.md
@@ -15,7 +15,7 @@ Oops! Using `>` rather that `>>` is a mistake and overwrites the other file cont
 
 Let's say I didn't realise this and I `add` the corrupted version:
 ```
-$ git add aricle.md
+$ git add article.md
 ```
 If I now realise what I've done, I can retrieve the most recent commit from my repository using `HEAD` and `checkout`.
 ```
@@ -29,7 +29,7 @@ If we had actually committed that wrong copy to the repo we would want to recove
 $ git checkout HEAD~1 article.md
 ```
 
-📌 `Checkout` brings this version back to the staged area and working directory, so we now have to re-commit this restored version back if we want that to be the new HEAD
+📌 `Checkout` brings this version back to the staged area and working directory, so we now have to re-commit this restored version back if we want that to be the most recent commit.
 
 ```
 $ git commit article.md
@@ -39,7 +39,7 @@ $ git commit article.md
 
 📌 Another way to call earlier versions is to use the commit identifier which can be retrieved from various commands like `git log`, `git diff` or `git show`.
 
-📌 There are other commands or methods to undo or revert to earlier versions. 
+📌 There are other commands or methods to undo or revert to earlier versions. [This tutorial](https://www.atlassian.com/git/tutorials/undoing-changes) gives a good overview of undo methods. For the situation above, `git revert` would be quicker to fix the issue, but the concepts of `checkout` and `HEAD` are quite important in Git so it is good to cover them here.
 
 📌 The fact that files can be reverted one by one tends to change the way people organize their work. If everything is in one large document, it’s hard (but not impossible) to undo changes to the introduction without also undoing changes made later to the conclusion. If the introduction and conclusion are stored in separate files, on the other hand, moving backward and forward in time becomes much easier.
 
