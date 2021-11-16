@@ -26,6 +26,7 @@ Git has noticed the new file. But it calls it an _untracked_ file. We’ll _add_
 $ git add article.md
 ```
 Let’s add some content to our empty `article.md` file.
+
 📌 _We can add content from the command line combining `echo` and `>` which directs the content to whatever we put after the `>`. We'll use the `cat` to check that the output has been written to the file:_
 ```
 $ echo “# How To Use Git to Manage Your Writing Project” > article.md
@@ -39,6 +40,7 @@ $ git status
   modified: article.md
 ```
 So Git has spotted the new changes to our file, but we haven’t staged (or _added_) them yet. Let's do that and then _commit_ it to our repository, which will be our first commit or snapshot.
+
 📌 _When we use the 'commit' command we have to add a message, signified by the `-m` flag. These commit messages should be meaningful so that they can be recognised as a point in time of a file or project, should we wish to roll back to it._
 ```
 $ git add article.md
