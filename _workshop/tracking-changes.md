@@ -133,6 +133,7 @@ $ git log
 ```
 Git presents the log with most recent first. Some other options or arguments for the `git log` command are `git log –-oneline` and `git long -2` (just shows the last 2 commits).
 
+***
 To recap, when we want to add changes to our repository, we first need to add the changed files to the staging area (git add) and then commit the staged changes to the repository (git commit):
 
 <p align="center">
