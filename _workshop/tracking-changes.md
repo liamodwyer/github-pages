@@ -45,7 +45,7 @@ So Git has spotted the new changes to our file, but we haven’t staged (or _add
 $ git add article.md
 $ git commit -m 'Add initial version of article'
 ```
-📌 _When we run `git commit`, Git takes everything we have told it to save by using `git add` and stores a copy permanently inside the special `.git directory`. This permanent copy is called a commit (or revision) and has a unique hash or identifier which has a short and long version._
+📌 _When we run `git commit`, Git takes everything we have staged using `git add` and stores a copy permanently inside the special `.git directory`. This permanent copy is called a commit (or revision) and has a unique hash or identifier which has a short and long version._
 
 If we do a _git status_ we should see everything is up to date:
 ```
@@ -109,7 +109,7 @@ If you think of Git as taking snapshots of changes over the life of a project, `
   <img src="./assets/images/git-staging-area.svg">
 </p>
 
-Instead of using echo again we are going to open atom - we’ll come back to our git command line in a minute. So
+Let’s watch as our changes to a file move from our editor to the staging area and into long-term storage. First, we’ll add another line to the file:
 ```
 $ echo "First line of my intro" >> article.md
 $ git diff
@@ -127,11 +127,31 @@ We will now commit our latest change
 ```
 $ git commit –m ‘Add intro text’
 ```
-Let'ss look at the _log_ now it should be a bit more detailed (it will show three changes)
+Let's look at the _log_ now it should be a bit more detailed (it will show three changes)
 ```
 $ git log
 ```
 Git presents the log with most recent first. Some other options or arguments for the `git log` command are `git log –-oneline` and `git long -2` (just shows the last 2 commits).
+
+To recap, when we want to add changes to our repository, we first need to add the changed files to the staging area (git add) and then commit the staged changes to the repository (git commit):
+
+<p align="center">
+  <img src="./assets/images/git-committing.svg">
+</p>
+
+***
+#### 💡 Key Points:
+
+✅ `git status` shows the status of a repository.
+
+✅ Files can be stored in a project’s working directory (which users see), the staging area (where the next commit is being built up) and the local repository (where commits are permanently recorded).
+
+✅ `git add` puts files in the staging area.
+
+✅ `git commit` saves the staged content as a new commit in the local repository.
+
+✅ write a commit message that accurately describes your changes.
+
 
 We’ve done a lot of adding and committing. Let’s look at how we can retrieve old versions. You can see in the `git log` each commit has its own hash identifier. You can refer to the _most recent commit_ of the working directory by using the identifier `HEAD`. And earlier versions with `HEAD~1` or `HEAD~2` etc. Before we start, let’s make one more change to `article.md`, adding yet another line.
 ```
