@@ -3,19 +3,65 @@ title: Getting Started     # The title of the page
 date: 0000-01-02    # Page order is set by date
 ---
 
-Open Git Bash.
+When we use Git on a new computer for the first time, we need to configure a few things.
+* our name and email address
+* what our preferred text editor is
+* and that we want to use these settings globally (i.e. for every project)
+
+On a command line, Git commands are written as `git verb options`, where `verb` is what we actually want to do and `options` is additional  information which may be needed for the verb.
+
+Open __Git Bash__ from wherever you installed it. There is a GUI for Git and you may have installed it but for this lesson we will be working mostly in the command line.
+
 First we’ll configure your name and email address.
 ```
 git config --global user.name "<username>"
 git config --global user.email "<email address>"
 ```
 
-Configure the default text editor git uses (for example, when prompting for a commit message).
+This user name and email will be associated with your subsequent Git activity. Any changes pushed to GitHub or another Git host server after this lesson will include this information. In this lesson, we will be interacting with GitHub and so __*the email address used should be the same as the one used when setting up your GitHub account*__.
+
+---
+📌 __Keeping your email private__
+If you are concerned about privacy, you can read [here](https://github.blog/2017-04-11-private-emails-now-more-private/) how to keep your email address private.
+
+📌 __Line Endings__
+As with other keys, when you hit Return on your keyboard, your computer encodes this input as a character. Different operating systems use different character(s) to represent the end of a line. (You may also hear these referred to as newlines or line breaks.) Because Git uses these characters to compare files, it may cause unexpected issues when editing a file on different machines. Though it is beyond the scope of this lesson, you can read more about this issue in the [Pro Git book](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_core_autocrlf).
+
+You can change the way Git recognizes and encodes line endings using the `core.autocrlf` command to `git config`. The following settings are recommended:
+
+On macOS and Linux:
+```
+$ git config --global core.autocrlf input
+````
+And on Windows:
+```
+$ git config --global core.autocrlf true
+```
+---
+
+We can also set our favorite text editor, following this table:
+
+| __Editor__                         | __Configuration command__                                                                                                |
+|------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| Atom                               | $ git config --global core.editor "atom --wait"                                                                          |
+| Nano                               | $ git config --global core.editor "nano -w"                                                                              |
+| Notepad (Win)	                     | $ git config --global core.editor "c:/Windows/System32/notepad.exe"                                                      |
+| Notepad++ (Win, 64-bit install)    | $ git config --global core.editor "'c:/program files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin" |
+| Sublime Text (Win, 64-bit install) | $ git config --global core.editor "'c:/program files/sublime text 3/sublime_text.exe' -w"                                |
+| Vim                                | $ git config --global core.editor "vim"                                                                                  |
+
+It is possible to reconfigure the text editor for Git whenever you want to change it.
+
+📌 Exiting Vim
+Vim is the default editor for git on most installs. If you haven’t used Vim before and wish to exit a session without saving your changes, press `Esc` then type `:q!` and hit `Return`. If you want to save your changes and quit, press `Esc` then type `:wq` and hit `Return`.
+
+
+Configure the default text editor Git uses (for example, when prompting for a commit message). On your Git install you may have selected one anyway but this is how you change it.
 ```
 $ git config --global core.editor "atom"
 ```
 
-As well as git commands we'll be using some shell commands in this lesson:
+As well as Git commands we'll be using some shell commands in this lesson:
 * `pwd` (print working directory) is useful to orient yourself
 * `cd` (change directory) on its own will get you to your home directory
 * `mkdir` (make directory)
@@ -32,13 +78,13 @@ We can check if there is anything in our folder using `ls` which lists the conte
 $ ls
 ```
 
-We have an empty folder.  We will create an empty git repository using our first git command `git init` (short for _initialise_)
+We have an empty folder.  We will create an empty Git repository using our first Git command `git init` (short for _initialise_)
 ```
 $ git init
   Initialized empty Git repository in <your file path>/gitlesson/.git/
 ```
 
-When we use git via the command line, we preface each command with git, so that the computer knows we are trying to get git to do something, rather than some other program.
+When we use Git via the command line, we preface each command with git, so that the computer knows we are trying to get Git to do something, rather than some other program.
 
 We’ll do a couple more shell commands now to see what has happened
 
@@ -52,7 +98,7 @@ $ ls –a
 ```
 Now the response includes the .git folder is. That is where all of the revision history for this repository will live)
 
-Now that our folder is a git project we can check its current status (we’ll be doing this a lot).
+Now that our folder is a Git project we can check its current status (we’ll be doing this a lot).
 ```
 $ git status
   On branch master
