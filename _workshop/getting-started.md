@@ -83,11 +83,14 @@ We have a cheat sheet pdf with more shell and git commands [here](./assets/docum
 
 ### Creating a repository
 
-A Git _repository_ is a data structure used to track changes to a set of project files over time. Repositories are stored within the same directory as these project files, in a hidden directory called `.git`. We can create a new git repository either by using GitHub’s web interface, or via the command line. Let’s use the command line to create a git repository for the experiments that we’re going to do today.
+A Git _repository_ is a data structure used to track changes to a set of project files over time.
+
+Repositories are stored within the same directory as these project files, in a hidden directory called `.git`. We can create a new git repository either remotely via our GitHub account, or locally via the command line. Let’s use the command line.
 
 First, we will create a new directory for our project and enter that directory.
 
-Go to your desktop and make a folder called _gitlesson_. (It doesn’t really matter where you make the directory, as long as you know, but if you are not familiar with navigating via the command line then desktop will make this easier!). Then move into that folder you have created.
+* Go to your desktop and make a folder called _gitlesson_. (It doesn’t really matter where, as long as you know, but if you are not familiar with shell commands then desktop is easiest). 
+* Then move into that folder you have created.
 ```
 $ cd ~/desktop
 $ mkdir gitlesson
