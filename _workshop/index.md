@@ -14,7 +14,7 @@ It can be useful to keep track of when you made changes to your own work and whe
 [“Piled Higher and Deeper”](https://phdcomics.com/comics/archive.php?comicid=1531) by Jorge Cham
 
 ### Why Should I Use It?
-Version control software and tools such as __Git__ and __SVN__ are often associated with software development and did originate from that community. But __*version control isn't just for code.*__ It's for anything you want to track.
+Version control software and tools such as __git__ and __SVN__ are often associated with software development and did originate from that community. But __*version control isn't just for code.*__ It's for anything you want to track.
 
 For example, using Git to manage a writing project enables you to
 * view multiple drafts at the same time
