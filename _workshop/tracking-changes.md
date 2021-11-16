@@ -134,7 +134,9 @@ Let's look at the _log_ now it should be a bit more detailed (it will show three
 ```
 $ git log
 ```
-Git presents the log with most recent first. Some other options or arguments for the `git log` command are `git log –-oneline` and `git long -2` (just shows the last 2 commits).
+
+
+📌 Git presents the log with most recent first. Some other options or arguments for the `git log` command are `git log –-oneline` and `git long -2` (just shows the last 2 commits).
 
 ***
 To recap:
@@ -159,22 +161,3 @@ We’ve done a lot of adding and committing. In the next part we'll look at how 
 ✅ `git commit` saves the staged content as a new commit in the local repository.
 
 ✅ write a commit message that accurately describes your changes.
-
-
-
-
-You can see in the `git log` each commit has its own hash identifier. You can refer to the _most recent commit_ of the working directory by using the identifier `HEAD`. And earlier versions with `HEAD~1` or `HEAD~2` etc. Before we start, let’s make one more change to `article.md`, adding yet another line.
-```
-$ echo “an ill-considered change” > article.md
-$ cat article.md
-$ git restore article.md
-```
-if I make the same mistake but go further and `add` the file this is what I would do to retrieve the repository version
-```
-$ git checkout HEAD article.md
-```
-If we had actually commited that wrong copy to the repo we could use `HEAD~1` to retrieve the earlier version. Let’s go back and make the same error and `add` and `commit` it. Then do:
-```
-$ git checkout HEAD~1 article.md
-```
-(We have to commit this back if we want that to be the new HEAD)

@@ -26,38 +26,32 @@ $ git checkout HEAD article.md
 As you might guess from its name, `git checkout` checks out (i.e., restores) an old version of a file. In this case, we’re telling Git that we want to recover the version of the file recorded in HEAD, the last saved commit.
 
 If we had actually committed that wrong copy to the repo we would want to recover the previous commit to the latest one. We use `HEAD~1` to do that. Let’s go back and make the same error and `add` and `commit` it. Then do:
+
 ```
 $ git checkout HEAD~1 article.md
 ```
+
 📌 `Checkout` brings this version back to the staged area, so we now have to re-commit this restored version back if we want that to be the new HEAD
+
 ```
 $ git commit article.md
 ```
 
-📌 We can refer to any previous commits using the ~ notation, so HEAD~1 means “the previous commit”, while HEAD~123 goes back 123 commits from where we are now.
+📌 The ~ notation used above can be used for all earlier commits, so HEAD~1 means “the previous commit”, while HEAD~123 goes back 123 commits from where we are now.
 
-📌 Another way to go back to earlier versions is to use the identifier that we see from the `log` or `diff` commands.
+📌 Another way to call earlier versions is to use the commit identifier which can be retrieved from various commands like `git log`, `git diff` or `git show`.
 
+📌 The fact that files can be reverted one by one tends to change the way people organize their work. If everything is in one large document, it’s hard (but not impossible) to undo changes to the introduction without also undoing changes made later to the conclusion. If the introduction and conclusion are stored in separate files, on the other hand, moving backward and forward in time becomes much easier.
 
-📌 __*The Staging Area*__
+```
+$ git show HEAD~3 article.md
+```
 
-If you think of Git as taking snapshots of changes over the life of a project, `git add` specifies what will go in a snapshot (putting things in the staging area), and `git commit` then actually takes the snapshot, and makes a permanent record of it (as a commit). If you don’t have anything staged when you type `git commit`, Git will prompt you to use `git commit -a` or `git commit --all`, which is kind of like gathering everyone to take a group photo! However, it’s almost always better to explicitly add things to the staging area, because you might commit changes you forgot you made. (Going back to the group photo simile, you might get an extra with incomplete makeup walking on the stage for the picture because you used -a!) Try to stage things manually, or you might find yourself searching for “git undo commit” more than you would like!
-
-<p align="center">
-  <img src="./assets/images/git-staging-area.svg">
-</p>
-
-
+Typically we might use one of these commands to get the identifier or make sure it is the version we want.  Git lets us use just the first few characters (typically seven for normal size projects) when we are using them in commands.
 
 ***
 #### 💡 Key Points:
 
-✅ `git status` shows the status of a repository.
+✅ `git diff` displays differences between commits.
 
-✅ Files can be stored in a project’s working directory (which users see), the staging area (where the next commit is being built up) and the local repository (where commits are permanently recorded).
-
-✅ `git add` puts files in the staging area.
-
-✅ `git commit` saves the staged content as a new commit in the local repository.
-
-✅ write a commit message that accurately describes your changes.
+✅ `git checkout` recovers old versions of files.
