@@ -77,7 +77,7 @@ $ git config --global core.editor "atom --wait"
 * `cd` (change directory) on its own will get you to your home directory
 * `mkdir` (make directory)
 
-We have a cheat sheet pdf with more shell and git commands [here](./assets/documents/gitcheatsheet.pdf)
+We have a cheat sheet pdf with more shell and git commands [here](./assets/documents/GitCheatSheet.pdf)
 
 ---
 
@@ -87,9 +87,8 @@ A Git _repository_ is a data structure used to track changes to a set of project
 
 Repositories are stored within the same directory as these project files, in a hidden directory called `.git`. We can create a new git repository either remotely via our GitHub account, or locally via the command line. Let’s use the command line.
 
-First, we will create a new directory for our project and enter that directory.
-
-* Go to your desktop and make a folder called _gitlesson_. (It doesn’t really matter where, as long as you know, but if you are not familiar with shell commands then desktop is easiest). 
+* First, we will create a new directory for our project and enter that directory.
+* Go to your desktop and make a folder called _gitlesson_. (It doesn’t really matter where, as long as you know, but if you are not familiar with shell commands then desktop is easiest).
 * Then move into that folder you have created.
 ```
 $ cd ~/desktop
@@ -107,7 +106,7 @@ $ git init
   Initialized empty Git repository in <your file path>/gitlesson/.git/
 ```
 
-When we use Git via the command line, we preface each command with `git`, so that the computer knows we are trying to get Git to do something, rather than some other program.
+📌 _When we use Git via the command line, we preface each command with `git`, so that the computer knows we are trying to get Git to do something, rather than some other program._
 
 We’ll do a couple more shell commands now to see what has happened
 
