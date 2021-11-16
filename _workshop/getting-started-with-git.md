@@ -21,6 +21,16 @@ git config --global user.email "<email address>"
 This user name and email will be associated with your subsequent Git activity. Any changes pushed to GitHub or another Git host server after this lesson will include this information. In this lesson, we will be interacting with GitHub and so __*the email address used should be the same as the one used when setting up your GitHub account*__.
 
 ---
+📌 __Branch naming__: All file changes are associated with a “branch.” For now, it’s enough to know that branches exist. By default, Git creates a branch called `master` when you create a new repository with `git init` (as explained in the next Episode).
+
+In 2020, most Git code hosting services transitioned to using `main` as the default branch. As an example, any new repository that is opened in GitHub and GitLab default to `main`. However, Git has not yet made the same change. To change the default on Git to match, enter the following command:
+
+```
+$ git config --global init.defaultBranch main
+```
+
+Note that if this value is unset in your local Git configuration, the init.defaultBranch value defaults to master.
+
 📌 __Keeping your email private__: If you are concerned about privacy, you can read [here](https://github.blog/2017-04-11-private-emails-now-more-private/) how to keep your email address private.
 
 📌 __Line endings__: As with other keys, when you hit Return on your keyboard, your computer encodes this input as a character. Different operating systems use different character(s) to represent the end of a line. (You may also hear these referred to as newlines or line breaks.) Because Git uses these characters to compare files, it may cause unexpected issues when editing a file on different machines. Though it is beyond the scope of this lesson, you can read more about this issue in the [Pro Git book](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_core_autocrlf).
