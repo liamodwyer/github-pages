@@ -27,19 +27,11 @@ If you are concerned about privacy, you can read [here](https://github.blog/2017
 📌 __Line Endings__
 As with other keys, when you hit Return on your keyboard, your computer encodes this input as a character. Different operating systems use different character(s) to represent the end of a line. (You may also hear these referred to as newlines or line breaks.) Because Git uses these characters to compare files, it may cause unexpected issues when editing a file on different machines. Though it is beyond the scope of this lesson, you can read more about this issue in the [Pro Git book](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_core_autocrlf).
 
-You can change the way Git recognizes and encodes line endings using the `core.autocrlf` command to `git config`. The following settings are recommended:
-
-On macOS and Linux:
-```
-$ git config --global core.autocrlf input
-````
-And on Windows:
-```
-$ git config --global core.autocrlf true
-```
+📌 Text Editors
+We'll be working within our Git Bash window for most of this lesson but for some operations Git needs to open an associated text editor. __Vim__ is the default editor on most installs. If you haven’t used Vim before and wish to exit a session without saving your changes, press `Esc` then type `:q!` and hit `Return`. If you want to save your changes and quit, press `Esc` then type `:wq` and hit `Return`.
 ---
 
-We can also set our favorite text editor, following this table:
+We can also set our favorite text editor. On your Git install you may have selected one anyway but this is how you change it:
 
 | __Editor__                         | __Configuration command__                                                                                                |
 |------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
@@ -50,13 +42,7 @@ We can also set our favorite text editor, following this table:
 | Sublime Text (Win, 64-bit install) | $ git config --global core.editor "'c:/program files/sublime text 3/sublime_text.exe' -w"                                |
 | Vim                                | $ git config --global core.editor "vim"                                                                                  |
 
-It is possible to reconfigure the text editor for Git whenever you want to change it.
-
-📌 Exiting Vim
-Vim is the default editor for git on most installs. If you haven’t used Vim before and wish to exit a session without saving your changes, press `Esc` then type `:q!` and hit `Return`. If you want to save your changes and quit, press `Esc` then type `:wq` and hit `Return`.
-
-
-Configure the default text editor Git uses (for example, when prompting for a commit message). On your Git install you may have selected one anyway but this is how you change it.
+If you want to you, change to the text editor you normally use: 
 ```
 $ git config --global core.editor "atom"
 ```
