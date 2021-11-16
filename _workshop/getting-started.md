@@ -120,8 +120,6 @@ $ ls –a
 ```
 Now the response includes the .git folder is. That is where all of the revision history for this repository will live)
 
-📌 Note that whenever we use git via the command line, we need to preface each command (or verb) with git, so that the computer knows we are trying to get git to do something, rather than some other program.
-
 Now that our folder is a Git project we can check its current status (we’ll be doing this a lot).
 ```
 $ git status
