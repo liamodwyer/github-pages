@@ -21,17 +21,14 @@ git config --global user.email "<email address>"
 This user name and email will be associated with your subsequent Git activity. Any changes pushed to GitHub or another Git host server after this lesson will include this information. In this lesson, we will be interacting with GitHub and so __*the email address used should be the same as the one used when setting up your GitHub account*__.
 
 ---
-📌 __Keeping your email private__
-If you are concerned about privacy, you can read [here](https://github.blog/2017-04-11-private-emails-now-more-private/) how to keep your email address private.
+📌 __Keeping your email private__: If you are concerned about privacy, you can read [here](https://github.blog/2017-04-11-private-emails-now-more-private/) how to keep your email address private.
 
-📌 __Line Endings__
-As with other keys, when you hit Return on your keyboard, your computer encodes this input as a character. Different operating systems use different character(s) to represent the end of a line. (You may also hear these referred to as newlines or line breaks.) Because Git uses these characters to compare files, it may cause unexpected issues when editing a file on different machines. Though it is beyond the scope of this lesson, you can read more about this issue in the [Pro Git book](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_core_autocrlf).
+📌 __Line endings__: As with other keys, when you hit Return on your keyboard, your computer encodes this input as a character. Different operating systems use different character(s) to represent the end of a line. (You may also hear these referred to as newlines or line breaks.) Because Git uses these characters to compare files, it may cause unexpected issues when editing a file on different machines. Though it is beyond the scope of this lesson, you can read more about this issue in the [Pro Git book](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_core_autocrlf).
 
-📌 Text Editors
-We'll be working within our Git Bash window for most of this lesson but for some operations Git needs to open an associated text editor. __Vim__ is the default editor on most installs. If you haven’t used Vim before and wish to exit a session without saving your changes, press `Esc` then type `:q!` and hit `Return`. If you want to save your changes and quit, press `Esc` then type `:wq` and hit `Return`.
+📌 __Text editors__: We'll be working within our Git Bash window for most of this lesson but for some operations Git needs to open an associated text editor. __Vim__ is the default editor on most installs. If you haven’t used Vim before and wish to exit a session without saving your changes, press `Esc` then type `:q!` and hit `Return`. If you want to save your changes and quit, press `Esc` then type `:wq` and hit `Return`.
 ---
 
-We can also set our favorite text editor. On your Git install you may have selected one anyway but this is how you change it:
+We can also set our favorite text editor if you didn't select one on your Git install:
 
 | __Editor__                         | __Configuration command__                                                                                                |
 |------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
@@ -41,18 +38,23 @@ We can also set our favorite text editor. On your Git install you may have selec
 | Notepad++ (Win, 64-bit install)    | $ git config --global core.editor "'c:/program files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin" |
 | Sublime Text (Win, 64-bit install) | $ git config --global core.editor "'c:/program files/sublime text 3/sublime_text.exe' -w"                                |
 | Vim                                | $ git config --global core.editor "vim"                                                                                  |
+| Visual Studio Code                 | $ git config --global core.editor "code --wait"                                                                          |
 
-If you want to you, change to the text editor you normally use: 
+I use atom so I will switch to that:
 ```
-$ git config --global core.editor "atom"
+$ git config --global core.editor "atom --wait"
 ```
 
-As well as Git commands we'll be using some shell commands in this lesson:
+📌__Shell Commands__: As well as Git commands we’ll be using some shell commands in this lesson:
 * `pwd` (print working directory) is useful to orient yourself
 * `cd` (change directory) on its own will get you to your home directory
 * `mkdir` (make directory)
 
-Go to your desktop and make a folder called gitlesson. (It doesn’t matter where you go, as long as you know!). Then move into that folder you have created.
+We have a cheat sheet pdf with more shell and git commands [here](./assets/pdfs/gitcheatsheet.pdf)
+
+---
+
+So let's get started with our lesson exercise! Go to your desktop and make a folder called _gitlesson_. (It doesn’t matter where you go, as long as you know!). Then move into that folder you have created.
 ```
 $ cd ~/desktop
 $ mkdir gitlesson
