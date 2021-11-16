@@ -25,7 +25,7 @@ This user name and email will be associated with your subsequent Git activity. A
 
 📌 __Line endings__: As with other keys, when you hit Return on your keyboard, your computer encodes this input as a character. Different operating systems use different character(s) to represent the end of a line. (You may also hear these referred to as newlines or line breaks.) Because Git uses these characters to compare files, it may cause unexpected issues when editing a file on different machines. Though it is beyond the scope of this lesson, you can read more about this issue in the [Pro Git book](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_core_autocrlf).
 
-📌 __Text editors__: We'll be working within our Git Bash window for most of this lesson but for some operations Git needs to open an associated text editor. _Vim_ is the default editor on most installs. If you haven’t used Vim before and wish to exit a session without saving your changes, press `Esc` then type `:q!` and hit `Return`. If you want to save your changes and quit, press `Esc` then type `:wq` and hit `Return`.
+📌 __Text editors__:: We'll be working within our Git Bash window for most of this lesson but for some operations Git needs to open an associated text editor. _Vim_ is the default editor on most installs. If you haven’t used Vim before and wish to exit a session without saving your changes, press `Esc` then type `:q!` and hit `Return`. If you want to save your changes and quit, press `Esc` then type `:wq` and hit `Return`.
 ---
 
 We can also set our favorite text editor if you didn't select one on your Git install:
