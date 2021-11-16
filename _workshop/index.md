@@ -27,11 +27,11 @@ So at its most basic level, __*version control software helps us register and tr
 ***
 
 #### Benefits of using version control
-- [x] __Collaboration__ - Version control allows us to define formalized ways we can work together and share writing and code. For example merging together sets of changes from different parties enables co-creation of documents and software across distributed teams.
-- [x] __Versioning__ - Having a robust and rigorous log of changes to a file, without renaming files (v1, v2, final_copy)
-- [x] __Rolling Back__ - Version control allows us to quickly undo a set of changes. This can be useful when new writing or new additions to code introduce problems.
-- [x] __Understanding__ - Version control can help you understand how the code or writing came to be, who wrote or contributed particular parts, and who you might ask to help understand it better.
-- [x] __Backup__ - While not meant to be a backup solution, using version control systems mean that your code and writing can be stored on multiple other computers.
+- [x] __Collaboration__ - Version control allows us to define formalized ways we can work together and share writing and/or code.
+- [x] __Versioning__ - Having a robust and rigorous log of changes to a file, without renaming files
+- [x] __Rolling Back__ - Version control allows us to quickly undo a set of changes.
+- [x] __Understanding__ - Version control can help you understand or share how a project came to be, who wrote or contributed particular parts, and who you might ask to help understand it better.
+- [x] __Backup__ - While not meant to be a backup solution, using version control systems mean that your code or writing can be stored on multiple other computers.
 
 ***
 
@@ -47,9 +47,9 @@ We often hear the terms Git and GitHub used interchangeably but they are slightl
 **_GitHub_**, on the other hand, is a website for hosting and sharing git repositories. It offers a web interface and functionality for working with such repositories.
 
 * As with git, a lot of the content on GitHub is software-related, though increasingly it is being used for other projects such as open access journals (e.g. Journal of Open Source Software), blogs, and academic text books.
-* There are other Git hosting services that offer many similar features to GitHub such as GitLab and Bitbucket.
 * GitHub can be used to publish content online. Any GitHub repository can have its own project website, blog and wiki using GitHub Pages.
 * GitHub hosts many open-licensed projects. By _forking_ one of these, a GitHub user can quickly create their own version of an existing project. A _forked_ project could be the basis for a new project, or it could be used to test new features and later be merged back into the original.
+* There are other git hosting services that offer many similar features to GitHub such as GitLab and Bitbucket.
 
 So git and GitHub are related, but different. You can choose to
 1. use git by itself to track changes and resolve conflicts or
