@@ -58,12 +58,20 @@ $ cd gitlesson 			(to move into that repository)
 ```
 So we have essentially an up-to-date repository in three places - two separate Git repositories and one on Github.
 
-The image below shows what the commands and workflow we have implemented in this lesson using Git and Github:
+The image below shows the commands and workflow we have implemented in this lesson using Git and Github:
 
 <p align="center">
   <img src="./assets/images/gitlocalremote.jpg">
 </p>
 
+* creating files in the working directory
+* adding them to the staging area
+* committing them to the local repository
+* checking out files from the repository back to the working directory
+* pushing the directory and files to a remote repository
+* pulling from that remote repository to another local repository
+
+---
 
 #### 💡 Key Points:
 
