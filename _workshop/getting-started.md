@@ -98,13 +98,13 @@ We can check if there is anything in our folder using `ls` which lists the conte
 $ ls
 ```
 
-We have an empty folder.  We will create an empty Git repository using our first Git command `git init` (short for _initialise_)
+We have an empty folder.  Now create an empty Git repository using `git init` (short for _initialise_)
 ```
 $ git init
   Initialized empty Git repository in <your file path>/gitlesson/.git/
 ```
 
-When we use Git via the command line, we preface each command with git, so that the computer knows we are trying to get Git to do something, rather than some other program.
+When we use Git via the command line, we preface each command with `git`, so that the computer knows we are trying to get Git to do something, rather than some other program.
 
 We’ll do a couple more shell commands now to see what has happened
 
@@ -135,8 +135,8 @@ git checkout -b main
 ***
 #### 💡 Key Points:
 
-✅ Use git config with the --global option to configure a user name, email address, editor, and other preferences once per machine.
+✅ Use `git config` with the `--global` flag to configure user name, email address, editor once per machine
 
-✅ `git init` initializes a repository.
+✅ `git init` initializes a repository
 
-✅ Git stores all of its repository data in the `.git` directory.
+✅ Git stores all of its repository data in the `.git` directory
