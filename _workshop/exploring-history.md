@@ -7,8 +7,6 @@ As we saw in the previous episode, we can refer to commits by their identifiers.
 
 We’ve been adding one line at a time to `gitlesson.md`. It’s easy to track our progress by looking, so let’s do that using our HEADs. Before we start, let’s make a change to gitlesson.md, adding yet another line.
 
-Before we start, let’s make one more change to `article.md`, adding yet another line.
-
 ```
 $ echo “an ill-considered change” > article.md
 $ cat article.md
@@ -31,7 +29,7 @@ If we had actually committed that wrong copy to the repo we would want to recove
 $ git checkout HEAD~1 article.md
 ```
 
-📌 `Checkout` brings this version back to the staged area, so we now have to re-commit this restored version back if we want that to be the new HEAD
+📌 `Checkout` brings this version back to the staged area and working directory, so we now have to re-commit this restored version back if we want that to be the new HEAD
 
 ```
 $ git commit article.md
@@ -40,6 +38,8 @@ $ git commit article.md
 📌 The ~ notation used above can be used for all earlier commits, so HEAD~1 means “the previous commit”, while HEAD~123 goes back 123 commits from where we are now.
 
 📌 Another way to call earlier versions is to use the commit identifier which can be retrieved from various commands like `git log`, `git diff` or `git show`.
+
+📌 There are other commands or methods to undo or revert to earlier versions. 
 
 📌 The fact that files can be reverted one by one tends to change the way people organize their work. If everything is in one large document, it’s hard (but not impossible) to undo changes to the introduction without also undoing changes made later to the conclusion. If the introduction and conclusion are stored in separate files, on the other hand, moving backward and forward in time becomes much easier.
 

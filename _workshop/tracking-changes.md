@@ -128,7 +128,7 @@ $ git diff --staged
 ```
 We will now commit our latest change
 ```
-$ git commit –m ‘Add intro text’
+$ git commit –m ‘Begin intro’
 ```
 Let's look at the _log_ now it should be a bit more detailed (it will show three changes)
 ```
