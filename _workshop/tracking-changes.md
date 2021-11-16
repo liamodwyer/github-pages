@@ -104,7 +104,7 @@ For example, suppose we’re adding a few citations to relevant research to our 
 >To allow for this, Git has a special staging area where it keeps track of things that have been added to the current changeset but not yet committed.
 
 
-📌 __Staging area__
+📌 __*The Staging Area*__
 
 If you think of Git as taking snapshots of changes over the life of a project, `git add` specifies what will go in a snapshot (putting things in the staging area), and `git commit` then actually takes the snapshot, and makes a permanent record of it (as a commit). If you don’t have anything staged when you type `git commit`, Git will prompt you to use `git commit -a` or `git commit --all`, which is kind of like gathering everyone to take a group photo! However, it’s almost always better to explicitly add things to the staging area, because you might commit changes you forgot you made. (Going back to the group photo simile, you might get an extra with incomplete makeup walking on the stage for the picture because you used -a!) Try to stage things manually, or you might find yourself searching for “git undo commit” more than you would like!
 
@@ -145,6 +145,8 @@ when we want to add changes to our repository, we first need to add the changed 
   <img src="./assets/images/git-committing.svg">
 </p>
 
+We’ve done a lot of adding and committing. In the next part we'll look at how we can retrieve our old commits.
+
 ***
 #### 💡 Key Points:
 
@@ -159,7 +161,9 @@ when we want to add changes to our repository, we first need to add the changed 
 ✅ write a commit message that accurately describes your changes.
 
 
-We’ve done a lot of adding and committing. Let’s look at how we can retrieve old versions. You can see in the `git log` each commit has its own hash identifier. You can refer to the _most recent commit_ of the working directory by using the identifier `HEAD`. And earlier versions with `HEAD~1` or `HEAD~2` etc. Before we start, let’s make one more change to `article.md`, adding yet another line.
+
+
+You can see in the `git log` each commit has its own hash identifier. You can refer to the _most recent commit_ of the working directory by using the identifier `HEAD`. And earlier versions with `HEAD~1` or `HEAD~2` etc. Before we start, let’s make one more change to `article.md`, adding yet another line.
 ```
 $ echo “an ill-considered change” > article.md
 $ cat article.md
