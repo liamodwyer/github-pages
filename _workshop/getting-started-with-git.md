@@ -45,12 +45,12 @@ I use atom so I will switch to that:
 $ git config --global core.editor "atom --wait"
 ```
 
-📌__Shell Commands__: As well as Git commands we’ll be using some shell commands in this lesson:
+📌 __Shell Commands__: As well as Git commands we’ll be using some shell commands in this lesson:
 * `pwd` (print working directory) is useful to orient yourself
 * `cd` (change directory) on its own will get you to your home directory
 * `mkdir` (make directory)
 
-We have a cheat sheet pdf with more shell and git commands [here](./assets/pdfs/gitcheatsheet.pdf)
+We have a cheat sheet pdf with more shell and git commands [here](./assets/documents/gitcheatsheet.pdf)
 
 ---
 
