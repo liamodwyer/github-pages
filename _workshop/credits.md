@@ -5,7 +5,7 @@ date: 0000-01-08  # Page order is set by date
 
 This lesson adapts and reuses content from:
 * _Software Carpentry_ lesson on Version Control with Git <https://swcarpentry.github.io/git-novice/>
-* _Library Carpentry_ lesson on Git https://librarycarpentry.org/lc-git/
+* _Library Carpentry_ lesson on Git ,https://librarycarpentry.org/lc-git/.
 
 Like those lessons, it is made available under the Creative Commons Attribution licence | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/legalcode)
 

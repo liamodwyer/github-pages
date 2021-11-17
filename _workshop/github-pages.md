@@ -44,7 +44,8 @@ If we now visit <https://<username>.github.io/gitlesson/article>, we should see 
 Usually it’s available instantly, but it can take a few seconds and in the worst case a few minutes if GitHub are very busy.
 
 📌 __Make a home page for our new site__
-If we want to give our project site a home page we can create a new `index.md` page on GitHub (or you can create it locally and `push` like we did already). It could just have one line of markdown (e.g. "_# This is my project site_")
+
+If we want to give our project site a home page we can create a new `index.md` page on GitHub - or you can create it locally and `push` like we did already for `article.md`. For now it could just have a markdown header (e.g. "_# This is my project site_")
 
 This index.md page will resolve at a root url of <https://<username>.github.io/gitlesson/> (Sometimes with GitHub Pages you need to change the theme to refresh the site index to include your new home page.)
 
