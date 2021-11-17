@@ -3,7 +3,7 @@ title: Github Pages     # The title of the page
 date: 0000-01-06    # Page order is set by date
 ---
 
-_Github Pages_ is a github service which lets you publish a website directly on github from a git repository. You can use html to build web pages but they also provide Jekyll which renders __markdown__ into html. And we have a markdown file we've made!
+_Github Pages_ is a GitHub service which lets you publish a website directly on GitHub from a Git repository. You can use html to build web pages but they also provide Jekyll which renders __markdown__ into html. And we have a markdown file we've made!
 
 ---
 ### Why GitHub Pages is awesome!
@@ -39,7 +39,14 @@ GitHub Pages provides different themes to visually style and organize your site�
 </p>
 
 ### View your site
-If we now visit https://<username>.github.io/gitlesson/article, we should see the contents of the article.md file that we created earlier. Usually it’s available instantly, but it can take a few seconds and in the worst case a few minutes if GitHub are very busy.
+If we now visit <https://<username>.github.io/gitlesson/article>, we should see the contents of the article.md file that we created earlier.
+
+Usually it’s available instantly, but it can take a few seconds and in the worst case a few minutes if GitHub are very busy.
+
+📌 __Make a home page for our new site__
+If we want to give our project site a home page we can create a new `index.md` page on GitHub (or you can create it locally and `push` like we did already). It could just have one line of markdown (e.g. "_# This is my project site_")
+
+This index.md page will resolve at a root url of <https://<username>.github.io/gitlesson/> (Sometimes with GitHub Pages you need to change the theme to refresh the site index to include your new home page.)
 
 ---
 
