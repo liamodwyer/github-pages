@@ -3,9 +3,11 @@ title: Tracking Changes     # The title of the page
 date: 0000-01-03    # Page order is set by date
 ---
 
-We will create a new file so that we can add it. We'll make a `.md` file which is _markdown_ format, a lightweight markup language (like a very stripped- back version of html).
+We will create a new file so that we can add it. We'll make a `.md` file which is _markdown_ format, a lightweight markup language (like a very stripped- back version of html). 
 
-📌 _Markdown can be used with git and github to build web pages and websites. We'll use another shell command `touch` to create the empty file._
+📌 _Markdown can be used with Git and GitHub to build web pages and websites._
+
+We'll use another shell command `touch` to create the empty file.
 ```
 $ touch article.md
 ```
