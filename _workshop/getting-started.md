@@ -19,7 +19,7 @@ git config --global user.name "<username>"
 git config --global user.email "<email address>"
 ```
 
-This user name and email will be associated with your subsequent Git activity. Any changes pushed to GitHub or another Git host server after this lesson will include this information. In this lesson, we will be interacting with GitHub and so __*the email address used should be the same as the one used when setting up your GitHub account*__.
+This user name and email account will be associated with your subsequent Git activity. Any changes pushed to GitHub or another Git host server after this lesson will include this information. In this lesson, we will be interacting with GitHub and so __*the email address used should be the same as the one used when setting up your GitHub account*__.
 
 📌 __Keeping your email private__: If you are concerned about privacy, you can read [here](https://github.blog/2017-04-11-private-emails-now-more-private/) how to keep your email address private.
 
