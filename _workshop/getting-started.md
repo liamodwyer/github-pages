@@ -127,7 +127,7 @@ $ git status
   Initial commit
   Nothing to commit
 ``` 
-If yours show branch `master` enter the following command to switch it to `main`. This will be important later
+If yours shows branch `master` enter the following command to switch it to `main`. This will be important later.
 ```
 git checkout -b main
 ```
