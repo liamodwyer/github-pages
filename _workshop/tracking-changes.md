@@ -80,7 +80,9 @@ It’s a little cryptic as it’s meant for text editors but we’ll go through 
 3.	The third and fourth lines once again show the name of the file being changed.
 4.	The remaining lines show us the actual differences and the lines on which they occur. In particular, the + marker in the first column shows where we added a line.
 
-We’ll go ahead and try and commit this.
+There's a good article on git diff's output [here](https://levelup.gitconnected.com/what-is-git-diff-and-how-do-we-read-the-output-69f5b2036186) covering this in a little more detail.
+
+Let's go ahead and try and commit this.
 
 ```
 $ git commit –m ‘Add section header’
