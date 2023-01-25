@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Git Workshop
+title: Github Pages Workshop
 email: liam.odwyer@dcu.ie
-description: A Carpentries-based workshop for DCU Library
+description: A digital scholarship workshop for DCU Library
 
 # Build settings
 markdown: kramdown
 theme: minima
-baseurl: "/git-workshop"
+baseurl: "/github-pages"
 
 # Direct posts to specific url
 collections:

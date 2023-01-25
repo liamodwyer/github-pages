@@ -1,5 +1,5 @@
 ---
-title: Version Control with Git  # The title of the page
+title: Build a Scholarly Website with Github Pages  # The title of the page
 date: 0000-01-01    # Page order is set by date
 ---
 
