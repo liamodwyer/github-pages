@@ -1,12 +1,18 @@
 ---
-title: Build a Scholarly Website with Github Pages  # The title of the page
+title: Make a Website with Github Pages  # The title of the page
 date: 0000-01-01    # Page order is set by date
 ---
 
-### What is Version Control?
-Version control is a name used for software which can help you record changes you make to the files in a directory on your computer.
+### What is Github Pages?
+With GitHub Pages you can quickly create and publish a website for free! 
+It is an ideal solution for creating a simple project, open educational resource, or personal site to highlight your academic work. 
+Because hosting is free and builds valuable transferable skills, this is a great option for teaching and learning.
 
-It can be useful to keep track of when you made changes to your own work and when, and without getting into this situation:
+This workshop will introduce using free hosting from GitHub Pages integrated with the popular static website generator Jekyll. 
+Along the way we will cover the basics of GitHub, HTML, Markdown, and Jekyll. 
+
+You will learn how to set up a project repository, write content in Markdown, and publish your site, all using GitHub’s user friendly web interface. More advanced usage of Jekyll for local web development is introduced final section.
+
 
 <p align="center">
   <img src="./assets/images/phdcomics_final.png">
