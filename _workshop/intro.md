@@ -1,14 +1,12 @@
 ---
-title: Introduction to Github     # The title of the page
+title: Git, GitHub, & GitHub Pages     # The title of the page
 nav: Intro
 date: 0000-01-02    # Page order is set by date
 ---
 
-## Git, GitHub, & GitHub Pages
-
 Before we get started, let's clarify some terms:
 
-[Git]<(https://git-scm.com/) is a popular [free](https://www.gnu.org/philosophy/free-sw.en.html), [distributed version control](https://en.wikipedia.org/wiki/Distributed_version_control) system--i.e. a piece of software used to track the history of changes in a folder of files. 
+[Git](https://git-scm.com/) is a popular [free](https://www.gnu.org/philosophy/free-sw.en.html), [distributed version control](https://en.wikipedia.org/wiki/Distributed_version_control) system i.e. a piece of software used to track the history of changes in a folder of files. 
 Git can be used on your personal computer, or by online services to track the development of a project, such as...
 
 [GitHub](https://github.com/), a popular web platform for hosting Git repositories--i.e. a place to store and sync your project files online.
@@ -29,10 +27,13 @@ Many organizations and individuals are using GitHub to collaboratively create an
 For example, [Programming Historian](http://programminghistorian.org/), [The Carpentries](https://carpentries.org/), or this site!
 
 
-There are *soft* limits and guidelines for gh-pages usage: sites should be < 1GB, use < 100GB bandwidth per month, and make < 10 builds per hour.
+There are *soft* limits and guidelines for gh-pages usage: 
+- sites should be < 1GB, 
+- use < 100GB bandwidth per month, and 
+- make < 10 builds per hour.
 If your site exceeds these quotas, GitHub will send you a notice asking you to modify the repository.
 
-All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/), e.g. no violence, obscene sex, or illegal stuff.
+All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/), e.g. no violence, obscene, or illegal stuff.
 
 
 ----------------
