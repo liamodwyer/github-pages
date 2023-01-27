@@ -355,7 +355,6 @@ It is your opportunity to let us know all the details "about" your project:
 
 -------------
 
-{% capture reference %}
 - [Jekyll's Liquid docs](https://jekyllrb.com/docs/liquid/) (Note: Jekyll provides some enhancements to Liquid that are not part of the standard spec)
 - [Liquid documentation](https://shopify.github.io/liquid/) (Note: these Liquid docs are for the most basic version. Some enhanced features are described in the [Shopify Liquid Reference](https://shopify.dev/docs/themes/liquid/reference), however, these docs are focused on the Shopify platform and may not apply to Jekyll's implementation)
 
