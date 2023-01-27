@@ -1,5 +1,6 @@
 ---
-title: Getting Started     # The title of the page
+title: Introduction to Github     # The title of the page
+nav: Intro
 date: 0000-01-02    # Page order is set by date
 ---
 
