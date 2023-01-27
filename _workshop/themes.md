@@ -25,11 +25,9 @@ Create new Layouts, Includes, or other files in your project to implement the fe
 
 We will look at *basic* examples of the final option in this section by setting up a new Layout, Include, and Data file before using Liquid to pull all these new features into our About page.
 
-{% capture liquid %}
 In the Layout and Include examples below you will notice a bit of Liquid code denoted by curly braces like {% raw %}`{{ variable }}`{% endraw %} or {% raw %}`{% function %}`{% endraw %}.
 We will cover the details of Liquid after setting up these new components so that we have something interesting to work with!
-{% endcapture %}
-{% include alert.html text=liquid color="warning" %}
+
 
 ----------------
 
