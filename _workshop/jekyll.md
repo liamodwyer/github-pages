@@ -4,6 +4,8 @@ nav: Jekyll
 date: 0000-01-03    # Page order is set by date
 ---
 
+![Github Pages Logo](assets/images/jekyll.jpg)
+
 ## Static Web
 
 Unlike [WordPress](https://wordpress.com/) or [Drupal](https://www.drupal.org/), GitHub Pages is not a content management system or dynamic web application.
