@@ -1,63 +1,34 @@
 ---
-title: Make a Website with Github Pages  # The title of the page
+title: Create a Website with Github Pages  # The title of the page
 date: 0000-01-01    # Page order is set by date
 ---
 
 ### What is Github Pages?
-With GitHub Pages you can quickly create and publish a website for free! 
+
+With [GitHub Pages](https://pages.github.com/) you can quickly create and publish a website for free! 
 It is an ideal solution for creating a simple project, open educational resource, or personal site to highlight your academic work. 
-Because hosting is free and builds valuable transferable skills, this is a great option for teaching and learning.
+Because hosting through gh-pages is free and builds valuable transferable skills, this is a great option for teaching and learning.
 
 This workshop will introduce using free hosting from GitHub Pages integrated with the popular static website generator Jekyll. 
 Along the way we will cover the basics of GitHub, HTML, Markdown, and Jekyll. 
+You will learn how to set up a project repository, write content in Markdown, and publish your site, all using GitHub’s user friendly web interface. 
+More advanced usage of Jekyll for local web development is introduced final section.
 
-You will learn how to set up a project repository, write content in Markdown, and publish your site, all using GitHub’s user friendly web interface. More advanced usage of Jekyll for local web development is introduced final section.
+Each section of the workshop has a video embedded on the page (shot in Nov 2020).
+Alternatively, checkout the [Go-Go GitHub Pages playlist on YouTube](https://www.youtube.com/playlist?list=PL3MdArvT5LVdkeEZ6x6feSMRjYjoMVEUZ).
 
+## Workshop Prep
 
-<p align="center">
-  <img src="./assets/images/phdcomics_final.png">
-</p>
-[“Piled Higher and Deeper”](https://phdcomics.com/comics/archive.php?comicid=1531) by Jorge Cham
+To get ready for this workshop, please create a free [GitHub account](https://github.com/join) if you don't have one already.
+Once you create your account, you may need to verify your email before you can create content.
 
-### Why Should I Use It?
-Version control software and tools such as __Git__ and __SVN__ are often associated with software development and did originate from that community. But __*version control isn't just for code.*__ It's for anything you want to track.
+This workshop introduces GitHub Pages using GitHub's web interface, demonstrating several ways to create gh-pages without using Jekyll locally.
+So, with your GitHub account in hand, you are all ready!
+The full development software is introduced in the final section for those wanting to go further.
 
-For example, using Git to manage a writing project enables you to view multiple drafts, see differences between those drafts, roll back changes
-and if you want to you can then share your work with others on GitHub.
+> Basic familiarity with the GitHub web interface and HTML will be helpful, but is not required. 
+> For quick introductions check out GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/) and w3schools [HTML Tutorial](https://www.w3schools.com/html/default.asp).
 
-So at its most basic level, __*version control software helps us register and track sets of changes made to files on our computer*__.
-
-
-#### Benefits of using version control
-- [x] __Collaboration__ - Version control allows us to define formalized ways we can work together and share writing and/or code.
-- [x] __Versioning__ - Having a robust and rigorous log of changes to a file, without renaming files
-- [x] __Rolling Back__ - Version control allows us to quickly undo a set of changes.
-- [x] __Understanding__ - Version control can help you understand or share how a project came to be, who wrote or contributed particular parts, and who you might ask to help understand it better.
-- [x] __Backup__ - While not meant to be a backup solution, using version control systems mean that your code or writing can be stored on multiple other computers.
-
-***
-
-### What are Git and GitHub?
-We often hear the terms Git and GitHub used interchangeably but they are slightly different things.
-
-**_Git_** is a widely used version control system. It is a free, open source tool that can be downloaded to your local machine and used for logging changes made to a group of files (referred to as a “Git repository” or “repo” for short) over time.
-
-* Git was originally developed to help software developers work collaboratively, but it can be and is used for managing revisions to any file type, including text documents and spreadsheets. (_Note: certain file types like MS Word and PDF contain special formatting which Git unfortunately cannot version control, though both can be stored in Git repositories._)
-* Git saves (or in Git parlance, _commits_) changes as snapshots, and manages these for you in the background. Earlier versions of each file still remain in their original form: they are not overwritten, should we ever wish to “roll back” to them.
-* We can access a log of all the changes that have been made at any time we need to.
-
-**_GitHub_**, on the other hand, is a website for hosting and sharing Git repositories. It offers a web interface and functionality for working with such repositories.
-
-* As with Git, a lot of the content on GitHub is software-related, though increasingly it is being used for other projects such as open access journals (e.g. Journal of Open Source Software), blogs, and academic text books.
-* GitHub can be used to publish content online. Any GitHub repository can have its own project website, blog and wiki using GitHub Pages.
-* GitHub hosts many open-licensed projects. By _forking_ one of these, a GitHub user can quickly create their own version of an existing project. A _forked_ project could be the basis for a new project, or it could be used to test new features and later be merged back into the original.
-* There are other Git hosting services that offer many similar features to GitHub such as GitLab and Bitbucket.
-
-So Git and GitHub are related, but different. You can choose to
-1. use Git by itself to track changes and resolve conflicts or
-2. use GitHub to host a project that users can collaborate on or to publish it
-
-Git will preserve the original metadata as well as all edits. GitHub will facilitate discussion about what changes should be made, who should make them, and why.
 
 ***
 

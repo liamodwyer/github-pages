@@ -3,23 +3,25 @@ title: Blog    # The title of the page
 date: 0000-01-04    # Page order is set by date
 ---
 
+In this section we set up a Jekyll blog on GitHub Pages to learn about _config.yml, YML front matter, and Posts.
+
 ## Set Up Your Project Repository
 
 First, **create a new repository** for your example blog:
 
-- On GitHub, click the "+" plus icon in the upper right of the nav bar.
-- Select "New repository".
-- Fill in "Create a new repository" page:
-    - "Repository name", since this will be your new example blog and be part of the URL, think a bit about what you want to call it. Use all lowercase, no spaces, and no weird characters. Dash (`-`) or underscore (`_`) are okay.
-    - Check the "Add a README file" option. 
-- Finally, click the green "Create repository" button. 
+- On GitHub, click the `+` plus icon in the upper right of the nav bar.
+- Select `New repository`.
+- Fill in `Create a new repository` page:
+    - `Repository name`, since this will be your new example blog and be part of the URL, think a bit about what you want to call it. Use all lowercase, no spaces, and no weird characters. Dash (`-`) or underscore (`_`) are okay.
+    - Check the `Add a README file` option. 
+- Finally, click the green `Create repository` button. 
 
 Second, **activate GitHub Pages**:
 
-- Click the "Settings" tab.
-- Scroll down to the "GitHub Pages" section.
-- Under "Source", use the dropdown to select "main" branch and leave folder as "/ (root)".
-- Click "Save".
+- Click the `Settings` tab.
+- Click `Pages` on the left menu.
+- Under `Source`, use the dropdown to select `main` branch and leave folder as `"/ (root)"`.
+- Click `Save`.
 
 ---------------
 
@@ -28,21 +30,21 @@ Second, **activate GitHub Pages**:
 The first step to starting a Jekyll project is to create `_config.yml`, which will contain site wide [configuration options](https://jekyllrb.com/docs/configuration/), variables, and settings.
 For example, config values such as `title` will be used to populate template elements throughout your final web site.
 
-[YAML](http://www.yaml.org/) is a plain text data format (using extension `.yml`) designed to be fairly easy to write and read, yet still provide advanced data structures similar to XML or JSON.
+📌 [YAML](http://www.yaml.org/) is a plain text data format (using extension `.yml`) designed to be fairly easy to write and read, yet still provide advanced data structures similar to XML or JSON.
 It is used in Jekyll for configuration, page front matter, and site data.
 Most options will be [key-value pairs](https://en.wikipedia.org/wiki/Attribute%E2%80%93value_pair), looking something like: 
 
-`example_key: example value`
+> `example_key: example value`
 
-Note: YAML ignores blank lines, requires spaces instead of tabs, and uses indentation to represent nesting--so take care creating the files following the syntax.
+📌 YAML ignores blank lines, requires spaces instead of tabs, and uses indentation to represent nesting--so take care creating the files following the syntax.
 
 ### Create _config.yml 
 
-- On your repository's home page, click the "Add file" button and select "Create new file". 
+- On your repository's home page, click the `Add file` button and select `Create new file`. 
 - Type in the name for your file: `_config.yml` (be sure to include the underscore!)
 - Put your cursor in the editor and create your config following the example below.
-- When done editing, scroll to the bottom of the page to the "Commit changes" section. 
-- Fill in your "commit message" and click the green "Commit changes" button.
+- When done editing, scroll to the bottom of the page to the `Commit changes` section. 
+- Fill in your "commit message" and click `Commit changes`.
 
 ```
 # Site settings
@@ -57,34 +59,31 @@ remote_theme: jekyll/minima
 
 ```
 
-A few notes about the YAML in the example above:
+📌 A few notes about the YAML in the example above:
 
 - Comments are denoted by a hash (`#`), everything following the hash on a line will be ignored.
 - Blank lines are ignored, so use them to organize your file and make it easier to read.
 - `title` is an example of a simple key-value pair. It is optional to put quotes around the value (unless it contains a colon or multiple lines)
-- `author` is an example of a nested value, with two children `name` and `email` nested by indenting two spaces. 
-- The variables included in the example are based on options the [Minima](https://github.com/jekyll/minima) (v.3) theme supports--they could be different depending on the theme or project you are creating. Documentation for each theme should tell you what variables can be used to customize the template.
+- `author` is an example of a *nested* value, with two children `name` and `email` nested by indenting two spaces. 
+- The variables included in the example are based on options the [Minima](https://github.com/jekyll/minima) (v.3) theme supports - they could be different depending on the theme or project you are creating. Documentation for each theme should tell you what variables can be used to customize the template.
 
-
-**Note:** using a `theme` is optional and definitely not necessary!
-Jekyll themes provide a handy starting point so you can focus on content creation, but a pre-made theme is not required.
-You can build out the framework of your site however you want.
-
-In this example we set the `remote_theme` to the official Jekyll theme [Minima](https://github.com/jekyll/minima).
-Following the pattern `remote_theme: username/repositoryname` allows you to use any theme that is hosted in a GitHub repository ([browse options](https://github.com/topics/jekyll-theme)).
-
-However, the `remote_theme` setting is *specific to GitHub Pages*.
-
-Normally, Jekyll uses the config option `theme` to select themes that are available as Ruby Gems ("gem-based themes").
-GitHub Pages has only a few [supported themes](https://pages.github.com/themes/) using this method.
-When using Jekyll locally, the gem-based theme set in config will be installed (using `bundle install`), downloading a copy of the theme and storing it with your Ruby Gems.
-In theory, this leaves your project folder clean so you can tweak a few customization options and just focus on content creation.
-
-In practice, because gem-based themes are essentially hidden, extensive customization can be confusing.
-If you are doing a lot of tweaking or want to create your own theme it may be simpler to include the theme files directly in your project repository. 
-In that case do NOT include a `theme`/`remote_theme` setting in `_config.yml`.
-(Personally, I very rarely use a `theme`!)
-
+> 📌 **Note:** using a `theme` is optional and definitely not necessary!
+> Jekyll themes provide a handy starting point so you can focus on content creation, but a pre-made theme is not required.
+> You can build out the framework of your site however you want.
+> 
+> In this example we set the `remote_theme` to the official Jekyll theme [Minima](https://github.com/jekyll/minima).
+> Following the pattern `remote_theme: username/repositoryname` allows you to use any theme that is hosted in a GitHub repository ([browse options](https://github.com/topics/jekyll-theme)).
+> 
+> However, the `remote_theme` setting is *specific to GitHub Pages*.
+> 
+> Normally, Jekyll uses the config option `theme` to select themes that are available as Ruby Gems ("gem-based themes").
+> GitHub Pages has only a few [supported themes](https://pages.github.com/themes/) using this method.
+> When using Jekyll locally, the gem-based theme set in config will be installed (using `bundle install`), downloading a copy of the theme and storing it with your Ruby Gems.
+> In theory, this leaves your project folder clean so you can tweak a few customization options and just focus on content creation.
+> 
+> In practice, because gem-based themes are essentially hidden, extensive customization can be confusing.
+> If you are doing a lot of tweaking or want to create your own theme it may be simpler to include the theme files directly in your project repository. 
+> In that case do NOT include a `theme`/`remote_theme` setting in `_config.yml`.
 
 ----------
 
@@ -92,7 +91,7 @@ In that case do NOT include a `theme`/`remote_theme` setting in `_config.yml`.
 
 With the basics of our site set in `_config.yml`, next we will need a home page.
 
-For every page in the site, we need to create a content stub in Markdown or HTML with YAML Front Matter.
+For every page in the site, we need to create a content stub in Markdown or HTML with **YAML Front Matter**.
 During build, Jekyll will process all files with YAML front matter (even if its empty), rendering the Markdown and wrapping the content in the theme to generate the final HTML page. 
 Any files *without* front matter will be copied to the site without processing.
 
@@ -130,7 +129,7 @@ Welcome to my new blog!
 With this commit the new blog should be live!
 Look for the green check next to your commit history, then surf to the URL following the pattern:
 
-`https://username.github.io/repositoryname/`
+`https://<username>.github.io/<repositoryname>/`
 
 -----------
 
@@ -144,15 +143,15 @@ Each post must be given a filename following the pattern:
 
 `yyyy-mm-dd-title.md`
 
-For example, "2020-10-31-happy-halloween.md" or "1990-01-01-first-day-of-www.md".
+For example, `"2020-10-31-happy-halloween.md"` or `"1990-01-01-first-day-of-www.md"`.
 
 ### Create _posts
 
-- On your repository's home page, click the "Add file" button and select "Create new file". 
+- On your repository's home page, click the `"Add file"` button and select `"Create new file"`. 
 - Start by typing `_posts` followed by `/`. Adding the slash will automatically let GitHub know you want to create a new folder ("_posts"). 
 - Continue typing your post filename: `2020-10-20-first-post.md`
 - Put your cursor in the editor to add the front matter and Markdown content, following the example below.
-- When done editing, scroll to the bottom of the page to the "Commit changes" section, fill in your "commit message" and click the green "Commit changes" button.
+- When done editing, scroll to the bottom of the page to the `"Commit changes"` section, fill in your "commit message" and click the green `"Commit changes"` button.
 
 ```
 ---
@@ -191,10 +190,10 @@ A numbered list is created using a number + `.`, like:
 
 ### Keep Posting, More Markdown
 
-- On your repository's home page, click the "Add file" button and select "Create new file".
+- On your repository's home page, click the `"Add file"` button and select `"Create new file"`.
 - Continue typing your post filename: `_posts/2020-10-22-second-post.md`
 - Put your cursor in the editor to add the front matter and content, following the example below to learn some more Markdown syntax.
-- When done editing, scroll to the bottom of the page to the "Commit changes" section, fill in your "commit message" and click the green "Commit changes" button.
+- When done editing, scroll to the bottom of the page to the "Commit changes" section, fill in your "commit message" and click the green `Commit changes` button.
 
 ```
 ---
@@ -225,7 +224,6 @@ A table:
 | dogs | 3 | 6 |
 | cats | 3 | 6 |
 | muffins | 15 | 30 |
-
 ```
 
 ----------------
@@ -244,10 +242,10 @@ We have already created `index.md`, so let's create the other *essential*, an Ab
 
 ### Create about.md
 
-- On your repository's home page, click the "Add file" button and select "Create new file". 
+- On your repository's home page, click `Add file` and select `Create new file`. 
 - Type in the name for your file: `about.md`
 - Create your about with front matter and Markdown following the example below.
-- Fill in your "commit message" and click the green "Commit changes" button.
+- Fill in your "commit message" and click `Commit changes`.
 
 ```
 ---

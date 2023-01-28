@@ -1,14 +1,11 @@
 ---
-title: Jekyll     # The title of the page
+title: Static Web and Jekyll     # The title of the page
 date: 0000-01-03    # Page order is set by date
 ---
 
 ---
 title: Introduction to Static Web and Jekyll
 nav: Jekyll
-topics: static web; static generators; Jekyll
-description: > 
-    Learn about static web approaches, static site generators, and how Jekyll fits in with GitHub Pages. (See video in Blog section)
 ---
 
 ## Static Web
@@ -34,12 +31,12 @@ Thus, despite their limitations static sites are experiencing a [recent boom](ht
 ## Static Site Generators
 
 Static Site Generators are software tools that bundle together a stack of web development packages used to transform a directory of source code into a complete website.
-With growing interest in static web approaches, such as [Jamstack](https://jamstack.org/), hundreds of Static Site Generators have sprung onto the scene--browse lists at [Jamstack Site Generators](https://jamstack.org/generators/) and [Static Site Generators](https://staticsitegenerators.net/).
+With growing interest in static web approaches, such as [Jamstack](https://jamstack.org/), hundreds of Static Site Generators have sprung onto the scene - browse lists at [Jamstack Site Generators](https://jamstack.org/generators/) and [Static Site Generators](https://staticsitegenerators.net/).
 
 These tools typically feature: 
 
 - a command line interface (not GUI software).
-- a builtin development server (test your site on your computer). 
+- a built-in development server (test your site on your computer). 
 - simplified markup based content (e.g. write in Markdown).
 - web templating language (build a site from modular components pulled together with basic logic).
 - CSS preprocessor (e.g. Sass).
@@ -62,6 +59,8 @@ Once you set up the repository, GitHub Pages' integrated Jekyll service will aut
 
 A basic Jekyll project is a folder of files that looks something like this:
 
+![jekyll folder structure](../assets/images/jekyllFolderStructure.png)
+
 Content is written in Markdown in files such as `index.md` or items in the `_posts` folder.
 The `_includes`, `_layouts`, and `_sass` directories can contain modular components that will flesh out the template of each web page, i.e. the website's theme.
 Jekyll knits the content and theme together to build out your website.
@@ -71,17 +70,14 @@ Instead you can use an existing theme to jump start your Jekyll project.
 
 A [Jekyll theme](https://jekyllrb.com/docs/themes/) is basically a packaged set of templates and styles (usually including folders `assets`, `_includes`, `_layouts`, and `_sass`) that can be referenced in your configuration or included directly as part of your project folder.
 
-Note: folder and file names starting with an underscore (`_`) are special to Jekyll. Be sure to name them correctly!
+> 📌 Note: folder and file names starting with an underscore (`_`) are special to Jekyll. Be sure to name them correctly!
 
 -------------
 
-
-- [GitHub Pages docs](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages)
-- [Using Jekyll on GitHub Pages docs](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll)
-- [Jekyll docs](https://jekyllrb.com/docs/)
-- Find [Jekyll themes on GitHub](https://github.com/topics/jekyll-theme)
-- [Jamstack](https://jamstack.org/) and [JAMstack WTF](https://jamstack.wtf/)
-
+📌  [GitHub Pages docs](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages)
+📌  [Using Jekyll on GitHub Pages docs](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll)
+📌  [Jekyll docs](https://jekyllrb.com/docs/)
+📌  Find [Jekyll themes on GitHub](https://github.com/topics/jekyll-theme)
 
 
 ***
