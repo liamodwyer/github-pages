@@ -1,43 +1,46 @@
 ---
-title: Create a Website with Github Pages  # The title of the page
-nav: Create a website...
+title: Create a Scholarly Website with Github Pages  # The title of the page
+nav: Intro and Setup # left side panel
 date: 0000-01-01    # Page order is set by date
 ---
 
 ![Github Pages Logo](assets/images/githubPages.jpg)
 
-### What is Github Pages?
+## Introduction
 
-With [GitHub Pages](https://pages.github.com/) you can quickly create and publish a website for free! 
-It is an ideal solution for creating a simple project, open educational resource, or personal site to highlight your academic work. 
-Because hosting through gh-pages is free and builds valuable transferable skills, this is a great option for teaching and learning.
+This is the lesson site for DCU Library's workshop on *creating a scholarly website with github pages*. Acadmemic staff and researchers often need to create a website or somewehere to publish material online for different reasons:
+- research project website
+- open educational resource (OER)
+- academic profile or CV
+- a scholarly blog
 
-This workshop will introduce using free hosting from GitHub Pages integrated with the popular static website generator Jekyll. 
-Along the way we will cover the basics of GitHub, HTML, Markdown, and Jekyll. 
+[GitHub Pages](https://pages.github.com/) offers an accessible and free solution to creating a simple website to highlight and share your academic work. 
+
+We'll see that using Github Pages for this is a bit different from content management systems like Wordpress, not least in that you will be working with text files withour a user interface. We'll mostly be using a format called *Markdown* for that which is a lightweight and accessible markup language. With just a little practice, you can quickly learn enough to create a site from scratch or *fork* (copy) an existing site template for you to customise and maintain. 
+
+As well as Markdown, you will learn how GitHub Pages integrates with the popular static website generator *Jekyll* to turn your Markdown into a fully functioning website.
+
 You will learn how to set up a project repository, write content in Markdown, and publish your site, all using GitHub’s user friendly web interface. 
-More advanced usage of Jekyll for local web development is introduced final section.
 
-Each section of the workshop has a video embedded on the page (shot in Nov 2020).
-Alternatively, checkout the [Go-Go GitHub Pages playlist on YouTube](https://www.youtube.com/playlist?list=PL3MdArvT5LVdkeEZ6x6feSMRjYjoMVEUZ).
+> *All of the technical part we’re going to do in the Github interface in the browser. So you don’t need a text editor or to install anything at all.*
 
-## Workshop Prep
+## Workshop Setup
 
-To get ready for this workshop, please create a free [GitHub account](https://github.com/join) if you don't have one already.
-Once you create your account, you may need to verify your email before you can create content.
+To work along with the exercises for this workshop, you can **create a free [GitHub account](https://github.com/join)** if you don't have one already.
+Once you create your account, you may be asked to verify your email before you can create content.
 
-This workshop introduces GitHub Pages using GitHub's web interface, demonstrating several ways to create gh-pages without using Jekyll locally.
-So, with your GitHub account in hand, you are all ready!
-The full development software is introduced in the final section for those wanting to go further.
+So, with your GitHub account in hand, you are all ready! 
 
-> Basic familiarity with the GitHub web interface and HTML will be helpful, but is not required. 
-> For quick introductions check out GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/) and w3schools [HTML Tutorial](https://www.w3schools.com/html/default.asp).
+*We won't be diving too much into Github's version control functionalities here as we are just using it to host a website but for quick introduction to that side of things check out GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/)*
 
 
 ***
 
-#### 💡 Key Points:
+#### 💡 What we'll cover:
 
-✅ Version control helps track changes to files and projects, like an unlimited 'undo'
+✅ Intro to Github and Github Pages
+✅ Learn about Markdown, YAML and Jekyll
+✅ Make your own website!
 
 ✅ It can be useful for both individuals and groups of people
 
