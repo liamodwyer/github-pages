@@ -5,6 +5,8 @@ date: 0000-01-01    # Page order is set by date
 
 ### What is Github Pages?
 
+![Github Pages Logo](assets/images/githubPages.jpg)
+
 With [GitHub Pages](https://pages.github.com/) you can quickly create and publish a website for free! 
 It is an ideal solution for creating a simple project, open educational resource, or personal site to highlight your academic work. 
 Because hosting through gh-pages is free and builds valuable transferable skills, this is a great option for teaching and learning.

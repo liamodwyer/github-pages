@@ -66,17 +66,14 @@ Instead you can use an existing theme to jump start your Jekyll project.
 
 A [Jekyll theme](https://jekyllrb.com/docs/themes/) is basically a packaged set of templates and styles (usually including folders `assets`, `_includes`, `_layouts`, and `_sass`) that can be referenced in your configuration or included directly as part of your project folder.
 
-> 📌 Note: folder and file names starting with an underscore (`_`) are special to Jekyll. Be sure to name them correctly!
+📌 Note: folder and file names starting with an underscore (`_`) are special to Jekyll. Be sure to name them correctly!
 
--------------
-
->  [GitHub Pages docs](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages)
->  [Using Jekyll on GitHub Pages docs](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll)
->  [Jekyll docs](https://jekyllrb.com/docs/)
->  Find [Jekyll themes on GitHub](https://github.com/topics/jekyll-theme)
+- [GitHub Pages docs](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages)
+- [Using Jekyll on GitHub Pages docs](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll)
+- [Jekyll docs](https://jekyllrb.com/docs/)
+- Find [Jekyll themes on GitHub](https://github.com/topics/jekyll-theme)
 
 
-***
 #### 💡 Key Points:
 
 ✅ `git status` shows the status of a repository.
