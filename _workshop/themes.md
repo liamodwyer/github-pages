@@ -1,5 +1,6 @@
 ---
 title: Themes     # The title of the page
+nav: Using themes
 date: 0000-01-05    # Page order is set by date
 ---
 

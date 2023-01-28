@@ -1,6 +1,6 @@
 ---
 title: Git, GitHub, & GitHub Pages     # The title of the page
-nav: Intro
+nav: Intro to Git & Github
 date: 0000-01-02    # Page order is set by date
 ---
 

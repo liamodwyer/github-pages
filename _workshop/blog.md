@@ -1,5 +1,6 @@
 ---
 title: Blog    # The title of the page
+nav: Make a blog
 date: 0000-01-04    # Page order is set by date
 ---
 
