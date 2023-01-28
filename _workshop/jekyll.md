@@ -1,11 +1,7 @@
 ---
 title: Static Web and Jekyll     # The title of the page
-date: 0000-01-03    # Page order is set by date
----
-
----
-title: Introduction to Static Web and Jekyll
 nav: Jekyll
+date: 0000-01-03    # Page order is set by date
 ---
 
 ## Static Web
@@ -59,7 +55,7 @@ Once you set up the repository, GitHub Pages' integrated Jekyll service will aut
 
 A basic Jekyll project is a folder of files that looks something like this:
 
-![jekyll folder structure](../assets/images/jekyllFolderStructure.png)
+![jekyll folder structure](assets/images/jekyllFolderStructure.png)
 
 Content is written in Markdown in files such as `index.md` or items in the `_posts` folder.
 The `_includes`, `_layouts`, and `_sass` directories can contain modular components that will flesh out the template of each web page, i.e. the website's theme.
@@ -74,10 +70,10 @@ A [Jekyll theme](https://jekyllrb.com/docs/themes/) is basically a packaged set 
 
 -------------
 
-📌  [GitHub Pages docs](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages)
-📌  [Using Jekyll on GitHub Pages docs](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll)
-📌  [Jekyll docs](https://jekyllrb.com/docs/)
-📌  Find [Jekyll themes on GitHub](https://github.com/topics/jekyll-theme)
+>  [GitHub Pages docs](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages)
+>  [Using Jekyll on GitHub Pages docs](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll)
+>  [Jekyll docs](https://jekyllrb.com/docs/)
+>  Find [Jekyll themes on GitHub](https://github.com/topics/jekyll-theme)
 
 
 ***
