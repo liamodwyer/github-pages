@@ -1,5 +1,6 @@
 ---
 title: Create a Website with Github Pages  # The title of the page
+nav: Create a website...
 date: 0000-01-01    # Page order is set by date
 ---
 
