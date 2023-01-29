@@ -187,7 +187,7 @@ Once it is complete (assuming everything goes well!), a green check will appear 
 
 -------------
 
-## References
+# References
 
 📌 Git & GitHub:
 

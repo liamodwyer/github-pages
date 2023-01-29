@@ -4,7 +4,7 @@ nav: Intro to Jekyll
 date: 0000-01-03    # Page order is set by date
 ---
 
-![Jekyll Logo](assets/images/jekyll.jpg)
+![Jekyll Logo](assets/images/jekyll.png)
 
 ## Static Web
 
@@ -13,7 +13,15 @@ There is no database, server side processing, or admin interface.
 
 This is known as a [Static Web](https://en.wikipedia.org/wiki/Static_web_page) host. 
 HTML, CSS, and JS stored in the repository are served to the user without dynamic changes.
-You can think of a static site as a shared folder of readonly files exposed on the web.
+You can think of a static site as a shared folder of read-only files exposed on the web.
+
+| #### Static site (e.g. Github pages        | Dynamic site (e.g. Wordpress) |
+| Server shows website ‘as is’               | Server generates pages ‘on the fly’ |
+| Editing source files directly (html/css)   | Can change quickly and often |
+| Less computation = easier to host/access   | GUI for editing content |
+|                                            | Hosting and ongoing maintenance more complex |
+
+
 
 In the *olden days* static web was the norm, but database driven dynamic web sites have dominated the last decade.
 For example, think of social media sites, where dynamic web applications and huge databases enable features such as user authentication, live comments, and personalized streams. 
