@@ -15,10 +15,11 @@ This is known as a [Static Web](https://en.wikipedia.org/wiki/Static_web_page) h
 HTML, CSS, and JS stored in the repository are served to the user without dynamic changes.
 You can think of a static site as a shared folder of read-only files exposed on the web.
 
-| #### Static site (e.g. Github pages        | Dynamic site (e.g. Wordpress) |
-| Server shows website ‘as is’               | Server generates pages ‘on the fly’ |
-| Editing source files directly (html/css)   | Can change quickly and often |
-| Less computation = easier to host/access   | GUI for editing content |
+| Static site (e.g. Github pages)            | Dynamic site (e.g. Wordpress)                |
+| ------------------------------------------ | -------------------------------------------- |
+| Server shows website ‘as is’               | Server generates pages ‘on the fly’          |
+| Editing source files directly (html/css)   | Can change quickly and often                 |
+| Less computation = easier to host/access   | GUI for editing content                      |
 |                                            | Hosting and ongoing maintenance more complex |
 
 
