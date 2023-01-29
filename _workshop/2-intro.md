@@ -69,17 +69,18 @@ Your new repo contains one file, `README.md`. Before we do anything else we'll t
 - Click `Pages` in the left-hand menu
 - Under `Source`, select `main` branch and leave folder as `"/ (root)"`
 - Click `Save`
+
 ![Github Pages Settings Screenshot](assets/images/GithubPagesSettings.png)
 
 > ### README, Markdown, and Editing
 > 
 > 📌 You will notice that by default the contents of the `README.md` file are displayed on the home page of your repository. 
-> This is a convention used in many code projects. **README** is a place to write the basics *about* your repository so users will understand what it contains, who made it, and any other information they should know. 
-> On GitHub READMEs are usually written in Markdown (thus the `.md` extension). 
+> This is a convention in code projects. **README** introduces your repository so anyone looking at it will understand what it contains, who made it, and any other information they should know. 
+> On GitHub READMEs are usually written in Markdown (denoted by the `.md` extension).
 
-> 📌 **Markdown** is a standard to simplify writing content for the web designed to be easy to read and write. 
-> [GitHub Markdown Flavor](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax) can be used any where on GitHub to format your writing in comments, Issues, and `.md` files.
-> The basics are intuitive, much like formatting a plain text email, as can be seen in the [Mastering Markdown Guide](https://guides.github.com/features/mastering-markdown/).
+> 📌 **Markdown** is a lightweight markup language designed to simplify writing content for the web. We'll be using it in most of this workshop to build up the content in the site.  
+> On Github we use a version of markdown called [GitHub Markdown Flavor](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax).
+> The basics are pretty intuitive, much like formatting a plain text email, as can be seen in the [Mastering Markdown Guide](https://guides.github.com/features/mastering-markdown/). Let's have a go at writing some Markdown...
 
 ### 3. Edit your README using Markdown:
 
@@ -101,13 +102,13 @@ Code can be highlighted with `backticks`.
 
 Hyperlinks look like this [GitHub Help](https://help.github.com/).
 
-A bullet list is created using `*`, `+`, or `-`, like:
+A bullet list is created using *, +, or - like:
 
 - dog
 - cat
 - muffin
 
-A numbered list is created using a number + `.`, like:
+A numbered list is created using a number followed by '.', like:
 
 1. one
 2. two
@@ -118,68 +119,70 @@ A numbered list is created using a number + `.`, like:
 
 - When done editing, scroll to the bottom of the page to the `Commit changes` section. 
 
+----------------
+
+📌 **Commit** is a git concept--basically taking a snap shot of the changes that will be permanently stored in your repository's history. Every commit records a user name, email, and message. 
+
 -----------------
 
-📌 Commit is a git concept--basically taking a snap shot of the changes that will be permanently stored in your repository's history. Every commit records a user name, email, and message. 
+- Fill in the first text box with your *commit message*, i.e. a short description of what changes you have made. This is your message to the future to help understand the code.
 
------------------
-
-- Fill in the first text box with your "commit message", i.e. a short description of what changes you have made. This is your message to the future to help understand the code.
-- Click the green `Commit changes` button to complete your first "git commit"!
+- Click the green `Commit changes` button to complete your first *git commit*!
 
 Once you commit, you will immediately see your `README` updated content rendered on the page.
 Behind the scenes GitHub is converting your Markdown code into HTML for display. 
 
 ### 4. Create an Index.md
 
-Most of the Web is made up of HTML, CSS, and JS:
+Let's add another file to our site - the home page. We will start with an `index.md` file. This will end up being converted to index.html, which by default the server will provide as the home page of your site.
 
-- **HTML** (Hypertext Markup Language) provides the structure and content, via a formal syntax for "tagging" the elements of a page such as headings, paragraphs, or lists.
-- **CSS** (Cascading Style Sheets) provides the style.
-- **JS** (JavaScript) provides the interactivity.
-
-When you access a website, the server sends your computer the code which your browser renders into a web page that you can view and interact with.
-Thus, one fascinating aspect of the web is that everyone must share code to participate.
-
-We will start with an index.md file because by default the server provides index as the home page of your site.
-
-- Click the `Code` tab to go to your repository's home page.
-- Click the `Add file` button and select `Create new file`. This will open the web-based text editor.
+- Click the `Code` tab to go to your repo's home page.
+- Click `Add file` and select `Create new file`. This will open the web-based text editor.
 - Type in the name for your file: `index.md`.
 - Put your cursor in the editor and write some Markdown
 
 ```
 
-## 
-# Header One: Big Text</h1>
- 
-An example paragraph
+
+# My Home page
 
 ## Header Two
+ 
+A paragraph. That contains a numbered list
+1. something
+2. something else
+2. any number will work here
 
-Paragraph with **Bold text**
+## Header Two again
+
+### Header Three
+
+Paragraph with **Bold text**.
+Still the same paragraph as there is no line space.
+
+Another paragraph with *italics*, **bold**, and even _**bolded** italics_.
 
 A link to [Github](https://github.com)
 
 
 ```
 
-- When done editing, scroll to the bottom of the page to the "Commit changes" section. 
-- Fill in your "commit message" and click the green "Commit changes" button.
+- When done editing, scroll to the bottom of the page to the `Commit changes` section. 
+- Fill in your *commit message* and click `Commit changes`.
 
 After you commit, you will be redirected to your repo home page.
-Clicking on the word `commits` in the upper right of the file box will bring you to the history of your repository. 
+Clicking on the word `commits` in the upper right of the file box will bring your repo history. 
 Each commit is represented on the page displaying your commit messages. 
-Clicking on the *hash* (the series of numbers to the right of the commit message) will display all the information about the commit, including all the changes made to files. 
+Clicking on the *hash* (the series of numbers to the right of the commit message) will display all the information about the commit, including all the changes made to files. We won't be getting into this today but this is the version control side of Git and Github.
 
 Now that we have an `index.md`, let's visit our new website. 
 The URL for any GitHub Pages site follows the pattern: 
 
 `https://<username>.github.io/<repositoryname>/`
 
-You can also find the link by looking back in your Settings once gh-pages has been activated.
+You can also find the link by looking back in your `Settings` once *pages* has been activated.
 
-Each time you make a commit GitHub Pages will re-deploy your files, which might take a minute. 
+Each time you make a commit GitHub Pages will re-deploy your files. This might take a minute. 
 Once it is complete (assuming everything goes well!), a green check will appear next to your commit in the history.
 
 -------------
@@ -201,8 +204,12 @@ Once it is complete (assuming everything goes well!), a green check will appear 
 
 #### 💡 Key Points:
 
-✅ Use `git config` with the `--global` flag to configure user name, email address, editor once per machine
+✅ Git is a version control software. 
 
-✅ `git init` initializes a repository
+✅ Github is a web platform for hosting Git repositories.
 
-✅ Git stores all of its repository data in the `.git` directory
+✅ Github Pages allows you to turn any repo into a website.
+
+✅ Content in Github can be written in Markdown, a lightweight markup language.
+
+✅ You update repositories by making *commits*.
