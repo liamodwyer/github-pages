@@ -8,6 +8,7 @@ We are just using Github Pages as a means to publish a website but before we beg
 
 ### Git
 ![Git Logo](https://upload.wikimedia.org/wikipedia/commons/6/62/Git-logo-orange.svg)
+
 [Git](https://git-scm.com/) is a popular [free](https://www.gnu.org/philosophy/free-sw.en.html), [distributed version control](https://en.wikipedia.org/wiki/Distributed_version_control) system. That is, a piece of software used to track the history of changes in a file or a set of files. In Git, this set of files is known as a **_repository_**. 
 
 > Git has its own terminology for various functions which can be a little off-putting if you haven't used it before. In this workshop we'll only deal with what we need to know for the purposes of creating our website. 
@@ -15,6 +16,8 @@ We are just using Github Pages as a means to publish a website but before we beg
 Git can be used locally, on your personal computer, or by online services to track the development of a project, such as...
 
 ### Github
+![Github Logo](https://upload.wikimedia.org/wikipedia/commons/9/95/Font_Awesome_5_brands_github.svg)
+
 [GitHub](https://github.com/), a popular web platform for hosting Git repositories--i.e. a place to store and sync your project files online.
 
 Built around the powerful version control of Git, it provides a handy web interface for managing, editing, and collaborating on repositories.
