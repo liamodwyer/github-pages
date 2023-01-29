@@ -187,6 +187,8 @@ Once it is complete (assuming everything goes well!), a green check will appear 
 
 -------------
 
+## References
+
 📌 Git & GitHub:
 
 - [GitHub Guides](https://guides.github.com/), see [Hello World](https://guides.github.com/activities/hello-world/) for an introduction.
@@ -198,7 +200,6 @@ Once it is complete (assuming everything goes well!), a green check will appear 
 - [GitHub Markdown documentation](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax)
 - [Markdown and Pandoc for Academic Writing](https://evanwill.github.io/write-md/)
 - [Markdown](https://daringfireball.net/projects/markdown/) (original spec by John Gruber)
-
 
 --------------------
 
