@@ -1,6 +1,6 @@
 ---
 title: Create a Scholarly Website with Github Pages  # The title of the page
-nav: Intro and Setup # left side panel
+nav: Intro & Setup
 date: 0000-01-01    # Page order is set by date
 ---
 

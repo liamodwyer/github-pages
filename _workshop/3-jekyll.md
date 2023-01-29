@@ -4,7 +4,7 @@ nav: Intro to Jekyll
 date: 0000-01-03    # Page order is set by date
 ---
 
-![Github Pages Logo](assets/images/jekyll.jpg)
+![Jekyll Logo](assets/images/jekyll.jpg)
 
 ## Static Web
 

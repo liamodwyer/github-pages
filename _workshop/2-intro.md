@@ -1,6 +1,6 @@
 ---
 title: Git, GitHub, & GitHub Pages     # The title of the page
-nav: Git, Github & Github Pages
+nav: Git & Github
 date: 0000-01-02    # Page order is set by date
 ---
 
@@ -16,7 +16,7 @@ We are just using Github Pages as a means to publish a website but before we beg
 Git can be used locally, on your personal computer, or by online services to track the development of a project, such as...
 
 ## Github
-<!-- ![Github Logo](https://upload.wikimedia.org/wikipedia/commons/d/d7/GitHub_font_awesome.svg) -->
+![Github Logo](assets/images/GithubPagesLogo)
 
 [GitHub](https://github.com/), a popular web platform for hosting Git repositories--i.e. a place to store and sync your project files online.
 
@@ -67,11 +67,11 @@ Your new repository contains one file, `README.md` that was automatically added.
 Check out the `Issues` tab, a great [feature](https://guides.github.com/features/issues/) for starting conversations and tracking tasks related to the repository.
 
 ### 2. Activate GitHub Pages
-![Github Pages Settings Screenshot](assets/images/GithubPagesSettings.png)
 - Click the `Settings` tab.
 - Click `Pages` in the left-hand menu
 - Under `Source`, use the dropdown to select `main` branch and leave folder as `"/ (root)"`.
 - Click `Save`.
+![Github Pages Settings Screenshot](assets/images/GithubPagesSettings.png)
 
 GitHub Pages allows *any* branch's root or "docs" folder to be [selected as the source](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).  
 
