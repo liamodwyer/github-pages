@@ -6,17 +6,17 @@ date: 0000-01-02    # Page order is set by date
 
 We are just using Github Pages as a means to publish a website but before we begin with that let's briefly look at these things called Git, Github and Github pages and how they all inter-relate.
 
-### Git
-![Git Logo](https://upload.wikimedia.org/wikipedia/commons/6/62/Git-logo-orange.svg)
+## Git
+![Git Logo](https://upload.wikimedia.org/wikipedia/commons/6/62/Git-logo-orange.svg) 
 
-[Git](https://git-scm.com/) is a popular [free](https://www.gnu.org/philosophy/free-sw.en.html), [distributed version control](https://en.wikipedia.org/wiki/Distributed_version_control) system. That is, a piece of software used to track the history of changes in a file or a set of files. In Git, this set of files is known as a **_repository_**. 
+[Git](https://git-scm.com/) is a [distributed version control](https://en.wikipedia.org/wiki/Distributed_version_control) system. That is, a piece of software used to track the history of changes in a file or a set of files. In Git, this set of files is known as a **_repository_**. 
 
-> Git has its own terminology for various functions which can be a little off-putting if you haven't used it before. In this workshop we'll only deal with what we need to know for the purposes of creating our website. 
+> Git has its own terminology for various functions - *branching, forking, cloning* etc. - which can be a little off-putting if you haven't used it before. In this workshop we'll only deal with what we need to know for the purposes of creating our website. 
 
 Git can be used locally, on your personal computer, or by online services to track the development of a project, such as...
 
-### Github
-![Github Logo](https://upload.wikimedia.org/wikipedia/commons/d/d7/GitHub_font_awesome.svg)
+## Github
+<!-- ![Github Logo](https://upload.wikimedia.org/wikipedia/commons/d/d7/GitHub_font_awesome.svg) -->
 
 [GitHub](https://github.com/), a popular web platform for hosting Git repositories--i.e. a place to store and sync your project files online.
 
@@ -25,45 +25,49 @@ Built around the powerful version control of Git, it provides a handy web interf
 Github was originally designed to manage large open-source software projects, but its use has expanded to many other types of organizations and individuals, with [over 40 million users](https://octoverse.github.com/).
 GitHub provides lots of additional project management features and functionalities, one of which is...
 
-### Github Pages
+## Github Pages
 [GitHub Pages](https://pages.github.com/), is a free static web hosting service available as part of every repository. 
 
-Intended to host relatively simple sites for your GitHub portfolio or project documentation, GitHub Pages is ideal for creating an open educational resource or personal site to highlight your academic work. 
+Initially designed for user blogs or project documentation but offers a good solution for open educational resources, research project sites or academic profiles.
 
 Many organizations and individuals are using GitHub to collaboratively create and publish public websites. 
 For example, [Programming Historian](http://programminghistorian.org/), [The Carpentries](https://carpentries.org/), or this site!
 
 
-📌 There are *soft* limits and guidelines for gh-pages usage: 
-- sites should be < 1GB, 
-- use < 100GB bandwidth per month, and 
-- make < 10 builds per hour.
-If your site exceeds these quotas, GitHub will send you a notice asking you to modify the repository.
+> There are *soft* limits and guidelines for gh-pages usage: 
+> - site content < 1GB
+> - < 100GB bandwidth per month
+> - < 10 builds per hour
+> If your site exceeds these quotas, GitHub will send you a notice asking you to modify the repository.
 
-📌 All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/), e.g. no violence, obscene, or illegal stuff.
+> All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/), e.g. no violence, obscene, or illegal stuff.
 
-## Practice Time!
+-----------------
+
+# Practice Time!
 
 Let's create a new repository, then write some Markdown to see how github pages works.
 
 ### 1. Create a New Repository 
 
 - Log into [GitHub](https://github.com/).
-- Click the `+` plus icon in the upper right of the nav bar.
+- Click the `+` icon in the upper right of the nav bar.
 - Select `New repository`.
 - Fill in "Create a new repository" page:
     - `Owner` is you. Every repo is associated with an individual or organization.
-    - `Repository name` is what you want to call this repo. It must be unique among the owner's repos. Since this repository will become a website, use all lowercase, no spaces, and no weird characters. Dash (`-`) or underscore (`_`) are okay.
-    - `Public` / `Private`. Anyone can visit a public repository--but that's okay! The entire web is public, so once you create a website, the code of your website is public anyway. GitHub is mostly open source code, i.e. public repositories with code people can view and copy for free (following the [license](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/licensing-a-repository) applied by the owner).
+    - `Repository name` is what you want to call this repo. The name of your repository will become part of the website url so
+		- use all lowercase
+		- no spaces
+		- no special characters apart from `-` or `_`
+    - `Public` / `Private`. To create a website you need to choose `Public` here. GitHub is mostly open source code, i.e. public repositories with code people can view and copy for free (following the [license](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/licensing-a-repository) applied by the owner).
     - Check the `Add a README file` option. This makes it easier to get started.
 - Finally, click the green `Create repository` button. You will be redirected to your brand new repository!
 
-Take a minute to explore your new repository.
-It currently contains one file, `README.md` that was automatically added. 
+Your new repository contains one file, `README.md` that was automatically added. 
 Check out the `Issues` tab, a great [feature](https://guides.github.com/features/issues/) for starting conversations and tracking tasks related to the repository.
 
 ### 2. Activate GitHub Pages
-
+![Github Pages Settings Screenshot](assets/images/GithubPagesSettings.png)
 - Click the `Settings` tab.
 - Click `Pages` in the left-hand menu
 - Under `Source`, use the dropdown to select `main` branch and leave folder as `"/ (root)"`.
