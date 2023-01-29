@@ -16,7 +16,7 @@ We are just using Github Pages as a means to publish a website but before we beg
 Git can be used locally, on your personal computer, or by online services to track the development of a project, such as...
 
 ## Github
-![Github Logo](assets/images/GithubPagesLogoSmall.png)
+![Github Logo](assets/images/githubPagesLogoSmall.png)
 
 [GitHub](https://github.com/), a popular web platform for hosting Git repositories--i.e. a place to store and sync your project files online.
 

@@ -39,9 +39,7 @@ So, with your GitHub account in hand, you are all ready!
 #### 💡 What we'll cover:
 
 ✅ Intro to Github and Github Pages
+
 ✅ Learn about Markdown, YAML and Jekyll
+
 ✅ Make your own website!
-
-✅ It can be useful for both individuals and groups of people
-
-✅ Git and Github are not the same
