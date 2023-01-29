@@ -27,6 +27,7 @@ GitHub provides lots of additional project management features and functionaliti
 
 ## Github Pages
 ![Github Pages Logo](assets/images/githubPagesLogoSmall.png)
+
 [GitHub Pages](https://pages.github.com/), is a free static web hosting service available as part of every repository. 
 
 Initially designed for user blogs or project documentation but offers a good solution for open educational resources, research project sites or academic profiles.
