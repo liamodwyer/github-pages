@@ -16,7 +16,7 @@ We are just using Github Pages as a means to publish a website but before we beg
 Git can be used locally, on your personal computer, or by online services to track the development of a project, such as...
 
 ## Github
-![Github Logo](assets/images/githubPagesLogoSmall.png)
+![Github Logo](assets/images/github-logo.png)
 
 [GitHub](https://github.com/), a popular web platform for hosting Git repositories--i.e. a place to store and sync your project files online.
 
@@ -26,6 +26,7 @@ Github was originally designed to manage large open-source software projects, bu
 GitHub provides lots of additional project management features and functionalities, one of which is...
 
 ## Github Pages
+![Github Pages Logo](assets/images/githubPagesLogoSmall.png)
 [GitHub Pages](https://pages.github.com/), is a free static web hosting service available as part of every repository. 
 
 Initially designed for user blogs or project documentation but offers a good solution for open educational resources, research project sites or academic profiles.
