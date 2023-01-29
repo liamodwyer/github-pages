@@ -16,7 +16,7 @@ We are just using Github Pages as a means to publish a website but before we beg
 Git can be used locally, on your personal computer, or by online services to track the development of a project, such as...
 
 ## Github
-![Github Logo](assets/images/GithubPagesLogo)
+![Github Logo](assets/images/GithubPagesLogoSmall.png)
 
 [GitHub](https://github.com/), a popular web platform for hosting Git repositories--i.e. a place to store and sync your project files online.
 
@@ -51,33 +51,23 @@ Let's create a new repository, then write some Markdown to see how github pages 
 ### 1. Create a New Repository 
 
 - Log into [GitHub](https://github.com/).
-- Click the `+` icon in the upper right of the nav bar.
+- Click the `+` icon in the top right of the github screen.
 - Select `New repository`.
-- Fill in "Create a new repository" page:
-    - `Owner` is you. Every repo is associated with an individual or organization.
-    - `Repository name` is what you want to call this repo. The name of your repository will become part of the website url so
-		- use all lowercase
-		- no spaces
-		- no special characters apart from `-` or `_`
-    - `Public` / `Private`. To create a website you need to choose `Public` here. GitHub is mostly open source code, i.e. public repositories with code people can view and copy for free (following the [license](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/licensing-a-repository) applied by the owner).
-    - Check the `Add a README file` option. This makes it easier to get started.
-- Finally, click the green `Create repository` button. You will be redirected to your brand new repository!
+- Fill in "Create a new repository" form:
+    - `Owner` is you
+    - `Repository name` is what you want to call this repo. The name of your repository will become part of the website url so don't use spaces or special characters apart from `-` or `_`. Lowercase is better too.
+    - `Public` / `Private` - choose `Public` here, as you want your website to be visible. GitHub is mostly public repositories with code people can view and copy for free (following the [license](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/licensing-a-repository) applied by the owner).
+    - Check the `Add a README file` option.
+	- Finally, click the green `Create repository` button to create your new repository.
 
-Your new repository contains one file, `README.md` that was automatically added. 
-Check out the `Issues` tab, a great [feature](https://guides.github.com/features/issues/) for starting conversations and tracking tasks related to the repository.
+Your new repo contains one file, `README.md`. Before we do anything else we'll turn on the *Github Pages* setting.
 
 ### 2. Activate GitHub Pages
-- Click the `Settings` tab.
+- Click `Settings`
 - Click `Pages` in the left-hand menu
-- Under `Source`, use the dropdown to select `main` branch and leave folder as `"/ (root)"`.
-- Click `Save`.
+- Under `Source`, select `main` branch and leave folder as `"/ (root)"`
+- Click `Save`
 ![Github Pages Settings Screenshot](assets/images/GithubPagesSettings.png)
-
-GitHub Pages allows *any* branch's root or "docs" folder to be [selected as the source](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).  
-
-Keep in mind that until recently the default branch was called "master", rather than "main", so older documentation may still use that terminology. 
-
--------------------------
 
 > ### README, Markdown, and Editing
 > 
@@ -88,8 +78,6 @@ Keep in mind that until recently the default branch was called "master", rather 
 > 📌 **Markdown** is a standard to simplify writing content for the web designed to be easy to read and write. 
 > [GitHub Markdown Flavor](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax) can be used any where on GitHub to format your writing in comments, Issues, and `.md` files.
 > The basics are intuitive, much like formatting a plain text email, as can be seen in the [Mastering Markdown Guide](https://guides.github.com/features/mastering-markdown/).
-
---------------------------
 
 ### 3. Edit your README using Markdown:
 
