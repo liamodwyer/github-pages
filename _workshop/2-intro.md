@@ -38,13 +38,13 @@ Many organizations and individuals are using GitHub to collaboratively create an
 For example, [Programming Historian](http://programminghistorian.org/), [The Carpentries](https://carpentries.org/), or this site!
 
 
-> :pushpin: There are *soft* limits and guidelines for gh-pages usage: 
+> :pushpin: There are limits and guidelines for websites hosted on github pages: 
 > - site content < 1GB
 > - < 100GB bandwidth per month
 > - < 10 builds per hour
-> If your site exceeds these quotas, GitHub will send you a notice asking you to modify the repository.
+> If your site exceeds these quotas, GitHub will send a notice asking to modify the repository.
 
-> :pushpin: All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/), e.g. no violence, obscene, or illegal stuff.
+> :pushpin: All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/), e.g. no violence, obscene, or illegal content.
 
 
 
@@ -89,16 +89,14 @@ On GitHub READMEs are usually written in _**Markdown**_ (denoted by the `.md` ex
 
 :pushpin: **Markdown** is a lightweight markup language designed to simplify writing content for the web. We'll be using it in most of this workshop to build up the content in the site.  
 
-- The basics are pretty intuitive, much like formatting a plain text email
-- Adam Pritchard's  is an excellent reference
-- There are excellent starter guides at:
-	- [Markdown Cheatsheet 1](https://www.markdownguide.org/cheat-sheet/) 
-	- [Markdown Cheatsheet 2](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-	- [Mastering Markdown Guide](https://guides.github.com/features/mastering-markdown/)
+There are excellent starter guides:
+- [MarkdownGuide Cheatsheet](https://www.markdownguide.org/cheat-sheet/) 
+- [Markdown Cheatsheet by Adam Pritchard](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Github's own Mastering Markdown Guide](https://guides.github.com/features/mastering-markdown/)
 
 ---------------
 
-Let's have a go at writing some Markdown...
+##### *Let's have a go at writing some Markdown...*
 
 ## 3. Edit your README using Markdown:
 

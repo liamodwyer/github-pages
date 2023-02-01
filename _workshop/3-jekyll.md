@@ -71,7 +71,7 @@ A [Jekyll theme](https://jekyllrb.com/docs/themes/) is basically a packaged set 
 - [Jekyll docs](https://jekyllrb.com/docs/)
 - Find [Jekyll themes on GitHub](https://github.com/topics/jekyll-theme)
 
-
+<!--
 #### 💡 Key Points:
 
 ✅ `git status` shows the status of a repository.
@@ -83,3 +83,4 @@ A [Jekyll theme](https://jekyllrb.com/docs/themes/) is basically a packaged set 
 ✅ `git commit` saves the staged content as a new commit in the local repository.
 
 ✅ write a commit message that accurately describes your changes.
+-->

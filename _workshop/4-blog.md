@@ -1,12 +1,14 @@
 ---
-title: Blog    # The title of the page
+title: Blogs and YAML    # The title of the page
 nav: Make a blog
 date: 0000-01-04    # Page order is set by date
 ---
 
 In this section we set up a Jekyll blog on GitHub Pages to learn about _config.yml, YML front matter, and Posts.
 
-## Set Up Your Project Repository
+# More Practice! 
+
+## Set Up Another Project Repository
 
 First, **create a new repository** for your example blog:
 
@@ -125,6 +127,16 @@ layout: home
 
 Welcome to my new blog!
 
+This is a site I built in a workshop with Liam. I am a PhD in DCU and my research areas are 
+- blah
+- blah
+- more blah
+
+Current mood:
+![A Cat pic from wikimedia](https://upload.wikimedia.org/wikipedia/commons/6/67/Cat_December_2005-1.jpg)
+
+This blog is a journal of my research during my PhD.
+
 ```
 
 With this commit the new blog should be live!
@@ -158,8 +170,6 @@ For example, `"2020-10-31-happy-halloween.md"` or `"1990-01-01-first-day-of-www.
 ---
 layout: post
 title: My First Jekyll Post
-tags: first markdown example
-categories: demo
 ---
 
 This is a paragraph in my first post.
@@ -200,8 +210,6 @@ A numbered list is created using a number + `.`, like:
 ---
 layout: post
 title: Next Steps
-tags: second markdown example
-categories: demo
 ---
 
 This is a paragraph in my second post.

@@ -16,7 +16,9 @@ Academic staff and researchers often want or need to create a website for differ
 
 In this workshop we'll work through the process of creating a site on [*GitHub Pages*](https://pages.github.com/), an accessible and free solution to making and hosting a website. 
 
-We'll see that using Github Pages for this is a bit different from content management systems like Wordpress. We'll be working with text files withour a user interface, mostly using a format called *__Markdown__*, a lightweight and accessible markup language. With just a little practice, you can quickly learn enough to create a site from scratch or *fork* (copy) an existing site template for you to customise and maintain. 
+We'll see that, while it is relatively accessible, using Github Pages for this is a bit different from content management systems like Wordpress. 
+
+We'll be working with text files without a user interface, mostly using a format called *__Markdown__*, a lightweight and accessible markup language. With just a little practice, you can quickly learn enough to create a site from scratch or *fork* (copy) an existing site template for you to customise and maintain. 
 
 As well as Markdown, you will learn how GitHub Pages integrates with the popular static website generator *Jekyll* to turn your Markdown files into a fully functioning website.
 
