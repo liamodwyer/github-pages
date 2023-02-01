@@ -15,20 +15,20 @@ To begin we'll look at these things called Git, Github and Github Pages and how 
 
 > Git has its own terminology for various functions - *branching, forking, cloning* etc. - which can be a little off-putting if you haven't used it before. In this workshop we'll only deal with what we need to know for the purposes of creating our website. 
 
-Git can be used locally, on your personal computer, or by online services to track the development of a project, such as...
+Git repositories can be created and managed locally, on your personal computer, or by online services, such as...
 
 ## Github
 ![Github Logo](assets/images/github-logo.png)
 
-[GitHub](https://github.com/), a popular web platform for hosting Git repositories--i.e. a place to store and sync your project files online.
+[GitHub](https://github.com/), a popular web platform for hosting Git repositories - i.e. a place to store and sync your project files online.
 
-Built around the powerful version control of Git, it provides a handy web interface for managing, editing, and collaborating on repositories.
+It provides a handy web interface for managing, editing, and collaborating on repositories.
 
 Github was originally designed to manage large open-source software projects, but its use has expanded to many other types of organizations and individuals, with [over 40 million users](https://octoverse.github.com/).
 GitHub provides lots of additional project management features and functionalities, one of which is...
 
 ## Github Pages
-![Github Pages Logo](assets/images/githubPagesLogoSmall.png)
+![Github Pages Logo](assets/images/githubPagesLogo2.png)
 
 [GitHub Pages](https://pages.github.com/), is a free static web hosting service available as part of every repository. 
 
@@ -38,21 +38,19 @@ Many organizations and individuals are using GitHub to collaboratively create an
 For example, [Programming Historian](http://programminghistorian.org/), [The Carpentries](https://carpentries.org/), or this site!
 
 
-> There are *soft* limits and guidelines for gh-pages usage: 
+> 📌 There are *soft* limits and guidelines for gh-pages usage: 
 > - site content < 1GB
 > - < 100GB bandwidth per month
 > - < 10 builds per hour
 > If your site exceeds these quotas, GitHub will send you a notice asking you to modify the repository.
 
-> All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/), e.g. no violence, obscene, or illegal stuff.
-
------------------
+> 📌 All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/), e.g. no violence, obscene, or illegal stuff.
 
 # Practice Time!
 
 Let's create a new repository, then write some Markdown to see how github pages works.
 
-### 1. Create a New Repository 
+## 1. Create a New Repository 
 
 - Log into [GitHub](https://github.com/).
 - Click the `+` icon in the top right of the github screen.
@@ -66,7 +64,7 @@ Let's create a new repository, then write some Markdown to see how github pages 
 
 Your new repo contains one file, `README.md`. Before we do anything else we'll turn on the *Github Pages* setting.
 
-### 2. Activate GitHub Pages
+## 2. Activate GitHub Pages
 - Click `Settings`
 - Click `Pages` in the left-hand menu
 - Under `Source`, select `main` branch and leave folder as `"/ (root)"`
@@ -74,17 +72,28 @@ Your new repo contains one file, `README.md`. Before we do anything else we'll t
 
 ![Github Pages Settings Screenshot](assets/images/GithubPagesSettings.png)
 
-> ### README, Markdown, and Editing
-> 
-> 📌 You will notice that by default the contents of the `README.md` file are displayed on the home page of your repository. 
-> This is a convention in code projects. **README** introduces your repository so anyone looking at it will understand what it contains, who made it, and any other information they should know. 
-> On GitHub READMEs are usually written in Markdown (denoted by the `.md` extension).
+### README.md
+ 
+:pushpin: You will notice that by default the contents of the `README.md` file are displayed on the home page of your repository. 
 
-> 📌 **Markdown** is a lightweight markup language designed to simplify writing content for the web. We'll be using it in most of this workshop to build up the content in the site.  
-> On Github we use a version of markdown called [GitHub Markdown Flavor](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax).
-> The basics are pretty intuitive, much like formatting a plain text email, as can be seen in the [Mastering Markdown Guide](https://guides.github.com/features/mastering-markdown/). Let's have a go at writing some Markdown...
+This is a convention in code projects. **README** introduces your repository so anyone looking at it will understand what it contains, who made it, and any other information they should know. 
+On GitHub READMEs are usually written in _**Markdown**_ (denoted by the `.md` extension).
 
-### 3. Edit your README using Markdown:
+
+### Markdown
+
+:pushpin: **Markdown** is a lightweight markup language designed to simplify writing content for the web. We'll be using it in most of this workshop to build up the content in the site.  
+
+- The basics are pretty intuitive, much like formatting a plain text email
+- Adam Pritchard's  is an excellent reference
+- There are excellent starter guides at:
+	- ![Markdown Cheatsheet 1](https://www.markdownguide.org/cheat-sheet/) 
+	- ![Markdown Cheatsheet 2](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+	- ![Mastering Markdown Guide](https://guides.github.com/features/mastering-markdown/)
+
+Let's have a go at writing some Markdown...
+
+## 3. Edit your README using Markdown:
 
 - On your repo home page click the filename `README.md`, which will bring you to the page for that file.
 - On the upper right corner of the file click the "pencil" icon to start editing. This will open the web-based text editor.
@@ -98,7 +107,8 @@ Your new repo contains one file, `README.md`. Before we do anything else we'll t
 ### Heading Three, etc.
 
 Any text with no empty lines between will become a paragraph.
-Leave an blank line between headings and paragraphs.
+Leave a blank line between headings and paragraphs, or where you want to start a new paragraph.
+
 Font can be *Italic* or **Bold**.
 Code can be highlighted with `backticks`.
 
@@ -117,13 +127,23 @@ A numbered list is created using a number followed by '.', like:
 6. three
 2. four
 
+You can do 'compressed' content like this:
+
+<details>
+<summary> My favourite numbers are</summary>
+- one
+- two
+- three
+- four
+</details>
+
 ```
 
 - When done editing, scroll to the bottom of the page to the `Commit changes` section. 
 
 ----------------
 
-📌 **Commit** is a git concept--basically taking a snap shot of the changes that will be permanently stored in your repository's history. Every commit records a user name, email, and message. 
+:pushpin: **Commit** is a git concept--basically taking a snap shot of the changes that will be permanently stored in your repository's history. Every commit records a user name, email, and message. 
 
 -----------------
 
@@ -134,7 +154,7 @@ A numbered list is created using a number followed by '.', like:
 Once you commit, you will immediately see your `README` updated content rendered on the page.
 Behind the scenes GitHub is converting your Markdown code into HTML for display. 
 
-### 4. Create an Index.md
+## 4. Create an Index.md
 
 Let's add another file to our site - the home page. We will start with an `index.md` file. This will end up being converted to index.html, which by default the server will provide as the home page of your site.
 
@@ -191,12 +211,12 @@ Once it is complete (assuming everything goes well!), a green check will appear 
 
 # References
 
-📌 Git & GitHub:
+:pushpin: Git & GitHub:
 
 - [GitHub Guides](https://guides.github.com/), see [Hello World](https://guides.github.com/activities/hello-world/) for an introduction.
 - [GitHub Learning Lab](https://lab.github.com/)
 
-📌 Markdown:
+:pushpin: Markdown:
 
 - [Mastering Markdown GitHub Guide](https://guides.github.com/features/mastering-markdown/)
 - [GitHub Markdown documentation](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax)
