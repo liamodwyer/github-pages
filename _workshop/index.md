@@ -14,9 +14,9 @@ Academic staff and researchers often want or need to create a website for differ
 - academic profile or CV
 - a scholarly blog
 
-In this workshop we'll work through the process of creating a site on [GitHub Pages](https://pages.github.com/), an accessible and free solution to making and hosting a website. 
+In this workshop we'll work through the process of creating a site on [*GitHub Pages*](https://pages.github.com/), an accessible and free solution to making and hosting a website. 
 
-We'll see that using Github Pages for this is a bit different from content management systems like Wordpress. We'll be working with text files withour a user interface. We'll mostly be using a format called *__Markdown__*, a lightweight and accessible markup language. With just a little practice, you can quickly learn enough to create a site from scratch or *fork* (copy) an existing site template for you to customise and maintain. 
+We'll see that using Github Pages for this is a bit different from content management systems like Wordpress. We'll be working with text files withour a user interface, mostly using a format called *__Markdown__*, a lightweight and accessible markup language. With just a little practice, you can quickly learn enough to create a site from scratch or *fork* (copy) an existing site template for you to customise and maintain. 
 
 As well as Markdown, you will learn how GitHub Pages integrates with the popular static website generator *Jekyll* to turn your Markdown files into a fully functioning website.
 
@@ -37,5 +37,3 @@ To work along with the exercises for this workshop, you can **create a free [Git
 Once you create your account, you may be asked to verify your email before you can create content.
 
 So, with your GitHub account in hand, you are all ready! 
-
-*We won't be diving too much into Github's version control functionalities here as we are just using it to host a website. We do provide a different ![workshop on Version Control](https://dculibrary.github.io/git-workshop/) if you are interested in learning more about that aspect. There is also a good introduction on GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/)*
