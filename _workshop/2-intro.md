@@ -75,6 +75,8 @@ Your new repo contains one file, `README.md`. Before we do anything else we'll t
 
 ![Github Pages Settings Screenshot](assets/images/GithubPagesSettings.png)
 
+--------------
+
 ### README.md
  
 :pushpin: You will notice that by default the contents of the `README.md` file are displayed on the home page of your repository. 
@@ -93,6 +95,8 @@ On GitHub READMEs are usually written in _**Markdown**_ (denoted by the `.md` ex
 	- [Markdown Cheatsheet 1](https://www.markdownguide.org/cheat-sheet/) 
 	- [Markdown Cheatsheet 2](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 	- [Mastering Markdown Guide](https://guides.github.com/features/mastering-markdown/)
+
+---------------
 
 Let's have a go at writing some Markdown...
 
