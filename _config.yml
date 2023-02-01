@@ -39,3 +39,7 @@ defaults:
       path: ""
     values:
       layout: workshop-stepper
+      
+# Add emojis
+plugins:
+  - jemoji
