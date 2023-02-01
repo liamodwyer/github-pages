@@ -6,8 +6,6 @@ date: 0000-01-01    # Page order is set by date
 
 ![Github Pages Logo](assets/images/githubPages.jpg)
 
-[A lesson site for DCU Library's workshop on *Creating a Scholarly Website with Github Pages*]
-
 ## Introduction
 
 Academic staff and researchers often want or need to create a website for different reasons:
@@ -16,15 +14,11 @@ Academic staff and researchers often want or need to create a website for differ
 - academic profile or CV
 - a scholarly blog
 
-[GitHub Pages](https://pages.github.com/) offers . 
+In this workshop we'll work through the process of creating a site on [GitHub Pages](https://pages.github.com/), an accessible and free solution to making and hosting a website. 
 
-In this workshop we'll work through the process of creating a site on Github Pages, an accessible and free solution to making and hosting a website. 
+We'll see that using Github Pages for this is a bit different from content management systems like Wordpress. We'll be working with text files withour a user interface. We'll mostly be using a format called *__Markdown__*, a lightweight and accessible markup language. With just a little practice, you can quickly learn enough to create a site from scratch or *fork* (copy) an existing site template for you to customise and maintain. 
 
-We'll see that using Github Pages for this is a bit different from content management systems like Wordpress, not least in that you will be working with text files withour a user interface. We'll mostly be using a format called *__Markdown__*, a lightweight and accessible markup language. With just a little practice, you can quickly learn enough to create a site from scratch or *fork* (copy) an existing site template for you to customise and maintain. 
-
-As well as Markdown, you will learn how GitHub Pages integrates with the popular static website generator *Jekyll* to turn your Markdown into a fully functioning website.
-
-You will learn how to set up a project repository, write content in Markdown, and publish your site, all using GitHub’s user friendly web interface. 
+As well as Markdown, you will learn how GitHub Pages integrates with the popular static website generator *Jekyll* to turn your Markdown files into a fully functioning website.
 
 ## What we'll cover 
 
