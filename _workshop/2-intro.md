@@ -38,17 +38,20 @@ Many organizations and individuals are using GitHub to collaboratively create an
 For example, [Programming Historian](http://programminghistorian.org/), [The Carpentries](https://carpentries.org/), or this site!
 
 
-> 📌 There are *soft* limits and guidelines for gh-pages usage: 
+> :pushpin: There are *soft* limits and guidelines for gh-pages usage: 
 > - site content < 1GB
 > - < 100GB bandwidth per month
 > - < 10 builds per hour
 > If your site exceeds these quotas, GitHub will send you a notice asking you to modify the repository.
 
-> 📌 All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/), e.g. no violence, obscene, or illegal stuff.
+> :pushpin: All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/), e.g. no violence, obscene, or illegal stuff.
+
+
+
 
 # Practice Time!
 
-Let's create a new repository, then write some Markdown to see how github pages works.
+Let's create a new repository, then write some Markdown to see how Github Pages works.
 
 ## 1. Create a New Repository 
 
