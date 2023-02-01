@@ -133,7 +133,7 @@ This is a site I built in a workshop with Liam. I am a PhD in DCU and my researc
 - more blah
 
 Current mood:
-![A Cat pic from wikimedia](https://commons.wikimedia.org/wiki/File:Angry_looking_white_and_black_cat.tif#file)
+![A Cat pic from wikimedia](https://upload.wikimedia.org/wikipedia/commons/3/35/Angry_tiger.jpg)
 
 This blog is a journal of my research during my PhD.
 
