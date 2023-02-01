@@ -6,63 +6,50 @@ date: 0000-01-03    # Page order is set by date
 
 ![Jekyll Logo](assets/images/jekyll.png)
 
-## Static Web
-
 Unlike [WordPress](https://wordpress.com/) or [Drupal](https://www.drupal.org/), GitHub Pages is not a content management system or dynamic web application.
 There is no database, server side processing, or admin interface.
 
 This is known as a [Static Web](https://en.wikipedia.org/wiki/Static_web_page) host. 
-HTML, CSS, and JS stored in the repository are served to the user without dynamic changes.
+Markdown, HTML, CSS, and JS stored in the repository are served to the user without dynamic changes.
 You can think of a static site as a shared folder of read-only files exposed on the web.
 
-| Static site (e.g. Github pages)            | Dynamic site (e.g. Wordpress)                |
-| ------------------------------------------ | -------------------------------------------- |
-| Server shows website ‘as is’               | Server generates pages ‘on the fly’          |
-| Editing source files directly (html/css)   | Can change quickly and often                 |
-| Less computation = easier to host/access   | GUI for editing content                      |
-|                                            | Hosting and ongoing maintenance more complex |
+| Static site (e.g. Github pages)              | Dynamic site (e.g. Wordpress)                |
+| -------------------------------------------- | -------------------------------------------- |
+| Server shows website ‘as is’                 | Server generates pages ‘on the fly’          |
+| Editing source files directly (html/css)     | GUI for editing content                      |
+| Less computational load                      | Can change quickly and often                 |
+| Minimal security vulnerabilities             | Hosting and ongoing maintenance more complex |
 
+Database driven dynamic web sites have dominated the last decade, such as with social media sites with dynamic web applications, huge databases and features such as user authentication, live comments, and personalized streams. 
+All this complex functionality requires heavy server-side infrastructure and processing - which may not be necessary or desireable for all web sites.
 
-
-In the *olden days* static web was the norm, but database driven dynamic web sites have dominated the last decade.
-For example, think of social media sites, where dynamic web applications and huge databases enable features such as user authentication, live comments, and personalized streams. 
-All this complex functionality requires heavy server-side infrastructure and processing--which may not be necessary or desireable for all web sites.
-
-Thus, despite their limitations static sites are experiencing a [recent boom](https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/) as a viable alternative because they offer some advantages over that heavy infrastructure:
-
-- faster performance (easy caching / CDN, low bandwidth, no processing time).
-- minimal hosting requirements (basic web servers, no dependencies, simple development environment).
-- minimal security vulnerabilities (no software or server programming language to get hacked).
-- easy version control (everything is plain text).
+However static sites are increasing been seen as a viable alternative because they offer some advantages over that heavy infrastructure.
 
 ## Static Site Generators
 
-Static Site Generators are software tools that bundle together a stack of web development packages used to transform a directory of source code into a complete website.
-With growing interest in static web approaches, such as [Jamstack](https://jamstack.org/), hundreds of Static Site Generators have sprung onto the scene - browse lists at [Jamstack Site Generators](https://jamstack.org/generators/) and [Static Site Generators](https://staticsitegenerators.net/).
+Static Site Generators are software tools that bundle together a stack of web development packages used to transform a directory of source code into a static website. You can browse hundreds of these at [Jamstack Site Generators](https://jamstack.org/generators/) and [Static Site Generators](https://staticsitegenerators.net/).
 
-These tools typically feature: 
+<!-- These tools typically feature: 
 
-- a command line interface (not GUI software).
-- a built-in development server (test your site on your computer). 
-- simplified markup based content (e.g. write in Markdown).
-- web templating language (build a site from modular components pulled together with basic logic).
-- CSS preprocessor (e.g. Sass).
-- file-based data options (create content from CSVs or JSON).
-- plugin extensibility (add new functionality).
-
+- a command line interface (not GUI software)
+- a development server (test your site on your computer)
+- simplified markup based content (e.g. Markdown)
+- web templating language (e.g. YAML)
+- CSS preprocessor (e.g. Sass)
+- file-based data options (create content from CSVs or JSON)
+- plugin extensibility (add new functionality)
+-->
 ----------
 
-## Jekyll 
+## Jekyll
 
-[Jekyll](https://jekyllrb.com/) is one of the most popular and actively developed static site generators, in part because of its direct integration with GitHub Pages.
+[Jekyll](https://jekyllrb.com/) is one of the most popular static site generators. It takes raw text files, runs it through a renderer and produces a publishable static website.
+
 Originally focused on creating simple blogs from Markdown files, it has developed into a fully featured generator used on all types of web projects from tiny to huge (browse the [Showcase](https://jekyllrb.com/showcase/)).
 
-Jekyll is written in the programming language [Ruby](https://www.ruby-lang.org/) and can be installed on your computer as a Ruby Gem--however, *you don't need to know anything about Ruby to get started using it!*
+Jekyll is written in the programming language [Ruby](https://www.ruby-lang.org/) and can be installed on your computer as a Ruby Gem. But  Github comes with its own integrated Jekyll service to save us the bother! With a couple of lines of code we can make use of Jekyll to build out our site. Each time we create or update our markdown content, this jekyll service will run in the background to build our site after each new commit.
 
-In fact, in the next section of the workshop we will build a Jekyll-powered blog without installing anything and editing entirely in the GitHub web interface.
-Once you set up the repository, GitHub Pages' integrated Jekyll service will automatically build out the site after each new commit.
-
-## Jekyll Projects
+## Jekyll Projects & Jekyll Themes
 
 A basic Jekyll project is a folder of files that looks something like this:
 

@@ -49,11 +49,11 @@ Most options will be [key-value pairs](https://en.wikipedia.org/wiki/Attribute%E
 
 ```
 # Site settings
-title: Great New Blog Title
+title: My Blog
 author:
   name: Liam O'Dwyer
   email: your-email@domain.com
-description: "Great site about Jekyll on GH-Pages."
+description: "Liam's Blog"
 
 # Build settings
 remote_theme: jekyll/minima
