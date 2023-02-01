@@ -90,9 +90,9 @@ On GitHub READMEs are usually written in _**Markdown**_ (denoted by the `.md` ex
 - The basics are pretty intuitive, much like formatting a plain text email
 - Adam Pritchard's  is an excellent reference
 - There are excellent starter guides at:
-	- ![Markdown Cheatsheet 1](https://www.markdownguide.org/cheat-sheet/) 
-	- ![Markdown Cheatsheet 2](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-	- ![Mastering Markdown Guide](https://guides.github.com/features/mastering-markdown/)
+	- [Markdown Cheatsheet 1](https://www.markdownguide.org/cheat-sheet/) 
+	- [Markdown Cheatsheet 2](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+	- [Mastering Markdown Guide](https://guides.github.com/features/mastering-markdown/)
 
 Let's have a go at writing some Markdown...
 
