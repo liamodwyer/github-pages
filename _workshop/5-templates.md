@@ -40,10 +40,6 @@ Creating a repository from a template
 
 In both cases you are free to experiment with the repository you have copied, without affecting the original project.
 
-# Finding templates
-
-For academic templates there is a handy topic list on github of over 200 repositories categorised as ['academic websites'](https://github.com/topics/academic-website).
-
 # Practice!
 
 We will take a few of these in turn and look at how to customise them, mainly using `_config.yml` and looking around at some of the other folders like `_data` and `_posts` . 
@@ -96,7 +92,16 @@ We will take a few of these in turn and look at how to customise them, mainly us
 
 -----------
 
+# Wrap Up
+
+## Finding templates
+
+If you want to look for more of these kinds of templates to find one you like, there is a handy topic list on github of over 200 repositories categorised as ['academic websites'](https://github.com/topics/academic-website).
+
+## Deleting repositories
 When you've finished practicing or if you run into any problems you can delete repositories you don't want to keep by going to:
 - Settings > Scroll to bottom
 - Delete this repository
+
+Github will ask you are you sure you want to do this but this is only a problem if it is a site you are intending to do further work on. And you can always re-fork or re-use a template you tried out already if you want to go back to it
 
