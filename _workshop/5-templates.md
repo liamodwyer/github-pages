@@ -42,7 +42,11 @@ In both cases you are free to experiment with the repository you have copied, wi
 
 For academic templates there is a handy topic list on github of over 200 repositories categorised as ['academic websites'](https://github.com/topics/academic-website).
 
-We will take a few of these in turn and look at how to customise them, mainly using _config.yml. With all of these we begin by switching on the Github Pages setting as in section 4.
+# Practice!
+
+We will take a few of these in turn and look at how to customise them, mainly using `_config.yml` and looking around at some of the other folders like `_data` and `_posts` . 
+
+:pushpin: With all of these we begin by switching on the Github Pages setting as in section 4.
 
 #### Minimal Mistakes (Template)
 - [Minimal Mistakes](https://github.com/mmistakes/mm-github-pages-starter)
@@ -65,19 +69,17 @@ We will take a few of these in turn and look at how to customise them, mainly us
 - [The Plain Academic](https://github.com/brenov/the-plain-academic)
 - Another academic-themed template by 
 
-## More Practice
+#### Academic Pages (Fork)
 
-- Make copies of each of the above templates
-- Look at what you need to change to suit your needs
+- [Academic Pages](https://github.com/academicpages/academicpages.github.io)
+- Based on the Minimal Mistakes theme above
+- Quite a content-heavy theme with a lot to strip out to begin with
 
+#### Make copies of each of the above templates
+#### Look at what you need to change to suit your needs
+
+When you've finished practicing or if you run into any problems you can delete repositories you don't want to keep by going to:
+- Settings > Scroll to bottom
+- Delete this repository
 -----------------
-
-
-
-
-
-----------------------
-
-
-----------------
 
