@@ -67,7 +67,7 @@ We will take a few of these in turn and look at how to customise them, mainly us
 #### The Plain Academic (Template)
 
 - [The Plain Academic](https://github.com/brenov/the-plain-academic)
-- Another academic-themed template by 
+- Another academic-themed template
 
 #### Academic Pages (Fork)
 
@@ -75,11 +75,7 @@ We will take a few of these in turn and look at how to customise them, mainly us
 - Based on the Minimal Mistakes theme above
 - Quite a content-heavy theme with a lot to strip out to begin with
 
-#### Make copies of each of the above templates
-#### Look at what you need to change to suit your needs
-
 When you've finished practicing or if you run into any problems you can delete repositories you don't want to keep by going to:
 - Settings > Scroll to bottom
 - Delete this repository
------------------
 

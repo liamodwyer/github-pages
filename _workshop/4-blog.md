@@ -303,6 +303,8 @@ minima:
 #### 💡 References:
 
 ✅ [Jekyll themes docs](https://jekyllrb.com/docs/themes/)
+
 ✅ [Jekyll front matter docs](https://jekyllrb.com/docs/front-matter/)
+
 ✅ [Jekyll Posts docs](https://jekyllrb.com/docs/posts/)
 
