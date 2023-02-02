@@ -19,9 +19,9 @@ It helps avoid multiple versions of files and ending up with something like...
 [“Piled Higher and Deeper”](https://phdcomics.com/comics/archive.php?comicid=1531) by Jorge Cham
 
 
-> *We won't be diving too much into Git or Github's version control functionalities here as we are just using it to host a website. We do provide a different [workshop on Version Control](https://dculibrary.github.io/git-workshop/) if you are interested in learning more about that aspect. There is also a good introduction on GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/)*.
+*We won't be diving too much into Git or Github's version control functionalities here as we are just using it to host a website. We do provide a different [workshop on Version Control](https://dculibrary.github.io/git-workshop/) if you are interested in learning more about that aspect. There is also a good introduction on GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/)*.
 
-> Git has its own terminology for various functions - *branching, forking, cloning* etc. - which can be a little off-putting if you haven't used it before. In this workshop we'll only deal with what we need to know for the purposes of creating our website. 
+Git has its own terminology for various functions - *branching, forking, cloning* etc. - which can be a little off-putting if you haven't used it before. In this workshop we'll only deal with what we need to know for the purposes of creating our website. 
 
 Git repositories can be created and managed locally, on your personal computer, or by online services, such as...
 
