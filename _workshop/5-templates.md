@@ -50,6 +50,8 @@ We will take a few of these in turn and look at how to customise them, mainly us
 
 :pushpin: **With all of these we begin by switching on the Github Pages setting as in section 4.**
 
+-----------
+
 ### Minimal Mistakes (Template)
 
 ![Academic Pages Template](assets/images/minimalMistakes.png)
@@ -64,12 +66,16 @@ We will take a few of these in turn and look at how to customise them, mainly us
 - Edit _data/navigation.yml to remove categories and tags
 - *an academic profile template based on this this is also available: [academicpages.github.io](https://github.com/academicpages/academicpages.github.io)* 
 
+-----------
+
 ###  Minimal Light (Template)
 
 ![Academic Pages Template](assets/images/minimalLight.png)
 
 - [Minimal Light](https://github.com/yaoyao-liu/minimal-light)
 - A nice one-page site template
+
+-----------
 
 ### The Plain Academic (Template)
 
@@ -78,6 +84,8 @@ We will take a few of these in turn and look at how to customise them, mainly us
 - [The Plain Academic](https://github.com/brenov/the-plain-academic)
 - Another academic-themed template
 
+-----------
+
 ### Academic Pages (Fork)
 
 ![Academic Pages Template](assets/images/academicPagesTemplate.png)
@@ -85,6 +93,8 @@ We will take a few of these in turn and look at how to customise them, mainly us
 - [Academic Pages](https://github.com/academicpages/academicpages.github.io)
 - Based on the Minimal Mistakes theme above
 - Quite a content-heavy theme with a lot to strip out to begin with
+
+-----------
 
 When you've finished practicing or if you run into any problems you can delete repositories you don't want to keep by going to:
 - Settings > Scroll to bottom
