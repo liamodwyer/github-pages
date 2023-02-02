@@ -11,6 +11,10 @@ To begin we'll look at these things called Git, Github and Github Pages and how 
 
 [Git](https://git-scm.com/) is a [distributed version control](https://en.wikipedia.org/wiki/Distributed_version_control) system. That is, a piece of software used to track the history of changes in a file or a set of files. In Git, this set of files is known as a **_repository_**. 
 
+It helps avoid multiple versions of files and ending up with something like...
+
+![phdcomics joke](assets/images/phdcomics_final.png)
+
 > *We won't be diving too much into Git or Github's version control functionalities here as we are just using it to host a website. We do provide a different [workshop on Version Control](https://dculibrary.github.io/git-workshop/) if you are interested in learning more about that aspect. There is also a good introduction on GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/)*.
 
 > Git has its own terminology for various functions - *branching, forking, cloning* etc. - which can be a little off-putting if you haven't used it before. In this workshop we'll only deal with what we need to know for the purposes of creating our website. 
