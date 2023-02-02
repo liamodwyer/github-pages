@@ -8,7 +8,7 @@ In this section we set up a Jekyll blog on GitHub Pages to learn about _config.y
 
 # More Practice! 
 
-## Set Up Another Project Repository
+## 1. Set Up Another Project Repository
 
 First, **create a new repository** for your example blog:
 
@@ -28,7 +28,7 @@ Second, **activate GitHub Pages**:
 
 ---------------
 
-## Configure Site 
+## 2. Configure Site 
 
 The first step to starting a Jekyll project is to create `_config.yml`, which will contain site wide [configuration options](https://jekyllrb.com/docs/configuration/), variables, and settings.
 For example, config values such as `title` will be used to populate template elements throughout your final web site.
@@ -90,7 +90,7 @@ remote_theme: jekyll/minima
 
 ----------
 
-## Home Page 
+## 3. Create a Home Page 
 
 With the basics of our site set in `_config.yml`, next we will need a home page.
 
@@ -146,7 +146,7 @@ Look for the green check next to your commit history, then surf to the URL follo
 
 -----------
 
-## Write Posts
+## 4. Write Posts
 
 Blogs are made up of [Posts](https://jekyllrb.com/docs/posts/)... 
 and Jekyll has the concept built in to its default structure.
@@ -249,7 +249,7 @@ However, many sites will use *only* [Pages](https://jekyllrb.com/docs/pages/) fo
 
 We have already created `index.md`, so let's create the other *essential*, an About page.
 
-### Create about.md
+## 5. Create an 'About' page
 
 - On your repository's home page, click `Add file` and select `Create new file`. 
 - Type in the name for your file: `about.md`
@@ -277,16 +277,24 @@ It is your opportunity to let us know all the details "about" your project:
 
 *Be sure to check out what your blog looks like with all this new content!*
 
+## 6. Customise the Theme
+
+In our site settings in our _config.yml file we used the Minima theme. 
+
+**Theme customization options:** The theme's documentation (often the README) should include information about built in configuration methods. 
+For example, Minima has a `skin` option that can change the color palette for the entire site. 
+Try adding this option to your `_config.yml`:
+
+```
+minima:
+  skin: dark
+```
+
 -------------
 
+#### 💡 References:
 
-- [Jekyll themes docs](https://jekyllrb.com/docs/themes/)
-- [Jekyll front matter docs](https://jekyllrb.com/docs/front-matter/)
-- [Jekyll Posts docs](https://jekyllrb.com/docs/posts/)
+✅ [Jekyll themes docs](https://jekyllrb.com/docs/themes/)
+✅ [Jekyll front matter docs](https://jekyllrb.com/docs/front-matter/)
+✅ [Jekyll Posts docs](https://jekyllrb.com/docs/posts/)
 
-***
-#### 💡 Key Points:
-
-✅ `git diff` displays differences between commits.
-
-✅ `git checkout` recovers old versions of files.
