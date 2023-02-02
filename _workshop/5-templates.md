@@ -51,6 +51,9 @@ We will take a few of these in turn and look at how to customise them, mainly us
 :pushpin: With all of these we begin by switching on the Github Pages setting as in section 4.
 
 #### Minimal Mistakes (Template)
+
+![Academic Pages Template](assets/images/minimalMistakes.png)
+
 - [Minimal Mistakes](https://github.com/mmistakes/mm-github-pages-starter)
 - a very popular github pages template
 - Edit _config.yml
@@ -63,15 +66,21 @@ We will take a few of these in turn and look at how to customise them, mainly us
 
 ####  Minimal Light (Template)
 
+![Academic Pages Template](assets/images/minimalLight.png)
+
 - [Minimal Light](https://github.com/yaoyao-liu/minimal-light)
 - A nice one-page site template
 
 #### The Plain Academic (Template)
 
+![Academic Pages Template](assets/images/plainOne.png)
+
 - [The Plain Academic](https://github.com/brenov/the-plain-academic)
 - Another academic-themed template
 
 #### Academic Pages (Fork)
+
+![Academic Pages Template](assets/images/academicPagesTemplate.png)
 
 - [Academic Pages](https://github.com/academicpages/academicpages.github.io)
 - Based on the Minimal Mistakes theme above
