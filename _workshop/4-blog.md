@@ -286,9 +286,17 @@ For example, Minima has a `skin` option that can change the color palette for th
 Try adding this option to your `_config.yml`:
 
 ```
-minima:
-  skin: dark
+header_pages:
+  - about.md
+  - portfolio.md
 ```
+
+```
+minima:
+  skin: dark (or solarized-dark)
+```
+
+
 
 -------------
 

@@ -34,12 +34,43 @@ Creating a repository from a template
 - Click on the "Fork" button
 ![fork button](assets/images/forkButton.png)
 - By default, forks are named the same as the source repositories. You can change the name to distinguish it further.
-- 
-- A forked copy will then be added to your own personal list of repositories on GitHub. The small text below the repository name confirms this is a fork.
-- 
+- A forked copy will then be added to your own repositories. The small text below the repo name confirms this is a fork.
 
 In both cases you are free to experiment with the repository you have copied, without affecting the original project.
 
+# Finding templates
+
+For academic templates there is a handy topic list on github of over 200 repositories categorised as ['academic websites'](https://github.com/topics/academic-website).
+
+We will take a few of these in turn and look at how to customise them, mainly using _config.yml. With all of these we begin by switching on the Github Pages setting as in section 4.
+
+#### Minimal Mistakes (Template)
+- [Minimal Mistakes](https://github.com/mmistakes/mm-github-pages-starter)
+- a very popular github pages template
+- Edit _config.yml
+	- url:
+	- baseurl:
+	- repository
+- Upload profile image
+- Edit _data/navigation.yml to remove categories and tags
+- *an academic profile template based on this this is also available: [academicpages.github.io](https://github.com/academicpages/academicpages.github.io)* 
+
+####  Minimal Light (Template)
+
+- [Minimal Light](https://github.com/yaoyao-liu/minimal-light)
+- A nice one-page site template
+
+#### The Plain Academic (Template)
+
+- [The Plain Academic](https://github.com/brenov/the-plain-academic)
+- Another academic-themed template by 
+
+## More Practice
+
+- Make copies of each of the above templates
+- Look at what you need to change to suit your needs
+
+-----------------
 
 
 
