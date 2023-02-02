@@ -48,9 +48,9 @@ For academic templates there is a handy topic list on github of over 200 reposit
 
 We will take a few of these in turn and look at how to customise them, mainly using `_config.yml` and looking around at some of the other folders like `_data` and `_posts` . 
 
-:pushpin: With all of these we begin by switching on the Github Pages setting as in section 4.
+:pushpin: **With all of these we begin by switching on the Github Pages setting as in section 4.**
 
-#### Minimal Mistakes (Template)
+### Minimal Mistakes (Template)
 
 ![Academic Pages Template](assets/images/minimalMistakes.png)
 
@@ -64,21 +64,21 @@ We will take a few of these in turn and look at how to customise them, mainly us
 - Edit _data/navigation.yml to remove categories and tags
 - *an academic profile template based on this this is also available: [academicpages.github.io](https://github.com/academicpages/academicpages.github.io)* 
 
-####  Minimal Light (Template)
+###  Minimal Light (Template)
 
 ![Academic Pages Template](assets/images/minimalLight.png)
 
 - [Minimal Light](https://github.com/yaoyao-liu/minimal-light)
 - A nice one-page site template
 
-#### The Plain Academic (Template)
+### The Plain Academic (Template)
 
 ![Academic Pages Template](assets/images/plainOne.png)
 
 - [The Plain Academic](https://github.com/brenov/the-plain-academic)
 - Another academic-themed template
 
-#### Academic Pages (Fork)
+### Academic Pages (Fork)
 
 ![Academic Pages Template](assets/images/academicPagesTemplate.png)
 
