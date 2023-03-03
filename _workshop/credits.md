@@ -26,7 +26,7 @@ Under the following terms:
 
 {% include profile.html
   display_name="Liam O'Dwyer"
-  profile_photo="/assets/images/liampic.png?raw=true"
+  profile_photo="assets/images/liampic.png"
   twitter_username="@lib_liam"
   github_username="liamodwyer"
 %}
