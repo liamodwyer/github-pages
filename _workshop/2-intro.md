@@ -34,7 +34,7 @@ Git repositories can be created and managed locally, on your personal computer, 
 
 It provides a handy web interface for managing, editing, and collaborating on repositories.
 
-Github was originally designed to manage large open-source software projects, but its use has expanded to many other types of organizations and individuals, with [over 40 million users](https://octoverse.github.com/).
+Github was designed to manage large open-source software projects, but its use has expanded to many other types of organizations and individuals, with [over 40 million users](https://octoverse.github.com/).
 GitHub provides lots of additional project management features and functionalities, one of which is...
 
 ## 3. Github Pages
@@ -42,19 +42,19 @@ GitHub provides lots of additional project management features and functionaliti
 
 [GitHub Pages](https://pages.github.com/), is a free static web hosting service available as part of every repository. 
 
-Initially designed for user blogs or project documentation but offers a good solution for open educational resources, research project sites or academic profiles.
+Initially this catered for technical blogs or project documentation but it offers a good solution for open educational resources, research project sites or academic profiles.
 
 Many organizations and individuals are using GitHub to collaboratively create and publish public websites. 
 For example, [Programming Historian](http://programminghistorian.org/), [The Carpentries](https://carpentries.org/), or this site!
 
 
-> :pushpin: There are limits and guidelines for websites hosted on github pages: 
+> 📌 There are limits and guidelines for websites hosted on github pages: 
 > - site content < 1GB
 > - < 100GB bandwidth per month
 > - < 10 builds per hour
 > If your site exceeds these quotas, GitHub will send a notice asking to modify the repository.
 
-> :pushpin: 📌 All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/), e.g. no violence, obscene, or illegal content.
+> 📌 All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/), e.g. no violence, obscene, or illegal content.
 
 
 
