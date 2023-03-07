@@ -168,7 +168,7 @@ You can do 'compressed' content like this:
 
 Once you commit, you will immediately see your `README` updated content rendered on the page.
 Behind the scenes GitHub is converting your Markdown code into HTML for display. 
-
+<!--
 ## 4. Create an Index.md
 
 Let's add another file to our site - the home page. We will start with an `index.md` file. This will end up being converted to index.html, which by default the server will provide as the home page of your site.
@@ -221,7 +221,7 @@ You can also find the link by looking back in your `Settings` once *pages* has b
 
 Each time you make a commit GitHub Pages will re-deploy your files. This might take a minute. 
 Once it is complete (assuming everything goes well!), a green check will appear next to your commit in the history.
-
+-->
 -------------
 
 # References
