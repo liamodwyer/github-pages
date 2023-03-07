@@ -15,6 +15,7 @@ You can think of a static site as a shared folder of read-only files exposed on 
 
 | Static site (e.g. Github pages)              | Dynamic site (e.g. Wordpress)                |
 | -------------------------------------------- | -------------------------------------------- |
+| Uses client-side technologies e.g. HTML, CSS | Also uses server-side technologies (e.g. PHP, SQL) |
 | Server shows website ‘as is’                 | Server generates pages ‘on the fly’          |
 | Editing source files directly (html/css)     | GUI for editing content                      |
 | Less computational load                      | Can change quickly and often                 |
