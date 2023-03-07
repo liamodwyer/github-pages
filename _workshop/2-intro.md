@@ -61,7 +61,7 @@ For example, [Programming Historian](http://programminghistorian.org/), [The Car
 
 # Practice Time!
 
-Let's create a new repository, then write some Markdown to see how Github Pages works.
+Let's create a new repository, then write some Markdown to see how Github Pages works. 
 
 ## 1. Create a New Repository 
 
@@ -70,7 +70,7 @@ Let's create a new repository, then write some Markdown to see how Github Pages 
 - Select `New repository`.
 - Fill in "Create a new repository" form:
     - `Owner` is you
-    - `Repository name` is what you want to call this repo. The name of your repository will become part of the website url so don't use spaces or special characters apart from `-` or `_`. Lowercase is better too.
+    - `Repository name` is what you want to call this repo. The name of your repository will become part of the website url so don't use spaces or special characters apart from `-` or `_`. Lowercase is better too. This first site is going to be a blog-type site so I'm going to call mine 'liamblog'.
     - `Public` / `Private` - choose `Public` here, as you want your website to be visible. GitHub is mostly public repositories with code people can view and copy for free (following the [license](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/licensing-a-repository) applied by the owner).
     - Check the `Add a README file` option.
 	- Finally, click the green `Create repository` button to create your new repository.
@@ -115,11 +115,15 @@ There are excellent starter guides:
 - Edit your file:
 
 ```
-# Heading One
+# Project Title Here
 
-## Heading Two
+This is a test repository for learning about github pages.
 
-### Heading Three, etc.
+## Anything else?
+
+I'm learning about **markdown** right now.
+
+### Is that it?
 
 Any text with no empty lines between will become a paragraph.
 Leave a blank line between headings and paragraphs, or where you want to start a new paragraph.
@@ -139,17 +143,19 @@ A numbered list is created using a number followed by '.', like:
 
 1. one
 2. two
-6. three
-2. four
+3. three
+4. four
 
 You can do 'compressed' content like this:
 
 <details>
 <summary> My favourite numbers are</summary>
+
 - one
 - two
 - three
 - four
+
 </details>
 
 ```
