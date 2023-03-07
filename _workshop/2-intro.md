@@ -6,10 +6,12 @@ date: 0000-01-02    # Page order is set by date
 
 To begin we'll look at these things called Git, Github and Github Pages and how they all inter-relate.
 
-## Git
+## 1. Git
 ![Git Logo](https://upload.wikimedia.org/wikipedia/commons/6/62/Git-logo-orange.svg) 
 
-[Git](https://git-scm.com/) is a [distributed version control](https://en.wikipedia.org/wiki/Distributed_version_control) system. That is, a piece of software used to track the history of changes in a file or a set of files. In Git, this set of files is known as a **_repository_**. 
+[Git](https://git-scm.com/) is a [distributed version control](https://en.wikipedia.org/wiki/Distributed_version_control) system. 
+
+That is, a piece of software used to track the history of changes in a file or a set of files. In Git, this set of files is known as a **_repository_**. 
 
 It helps avoid multiple versions of files and ending up with something like...
 
@@ -19,13 +21,13 @@ It helps avoid multiple versions of files and ending up with something like...
 [“Piled Higher and Deeper”](https://phdcomics.com/comics/archive.php?comicid=1531) by Jorge Cham
 
 
-*We won't be diving too much into Git or Github's version control functionalities here as we are just using it to host a website. We do provide a different [workshop on Version Control](https://dculibrary.github.io/git-workshop/) if you are interested in learning more about that aspect. There is also a good introduction on GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/)*.
+*We won't be diving too much into Git or Github's version control functionalities here as we are just using it to host a website. If you are interested in learning more about that aspect try our [workshop on Version Control](https://dculibrary.github.io/git-workshop/). There is also a good introduction to this on GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/).*
 
 Git has its own terminology for various functions - *branching, forking, cloning* etc. - which can be a little off-putting if you haven't used it before. In this workshop we'll only deal with what we need to know for the purposes of creating our website. 
 
 Git repositories can be created and managed locally, on your personal computer, or by online services, such as...
 
-## Github
+## 2. Github
 ![Github Logo](assets/images/github-logo.png)
 
 [GitHub](https://github.com/), a popular web platform for hosting Git repositories - i.e. a place to store and sync your project files online.
@@ -35,7 +37,7 @@ It provides a handy web interface for managing, editing, and collaborating on re
 Github was originally designed to manage large open-source software projects, but its use has expanded to many other types of organizations and individuals, with [over 40 million users](https://octoverse.github.com/).
 GitHub provides lots of additional project management features and functionalities, one of which is...
 
-## Github Pages
+## 3. Github Pages
 ![Github Pages Logo](assets/images/githubPagesLogo2.png)
 
 [GitHub Pages](https://pages.github.com/), is a free static web hosting service available as part of every repository. 
@@ -52,7 +54,7 @@ For example, [Programming Historian](http://programminghistorian.org/), [The Car
 > - < 10 builds per hour
 > If your site exceeds these quotas, GitHub will send a notice asking to modify the repository.
 
-> :pushpin: All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/), e.g. no violence, obscene, or illegal content.
+> :pushpin: 📌 All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/), e.g. no violence, obscene, or illegal content.
 
 
 
