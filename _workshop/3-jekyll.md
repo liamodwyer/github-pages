@@ -40,7 +40,7 @@ Static Site Generators are software tools that bundle together a stack of web de
 - file-based data options (create content from CSVs or JSON)
 - plugin extensibility (add new functionality)
 -->
-----------
+
 
 ## Jekyll
 

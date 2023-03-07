@@ -6,29 +6,7 @@ date: 0000-01-04    # Page order is set by date
 
 In this section we set up a Jekyll blog on GitHub Pages to learn about _config.yml, YML front matter, and Posts.
 
-# More Practice! 
-
-## 1. Set Up Another Project Repository
-
-First, **create a new repository** for your example blog:
-
-- On GitHub, click the `+` plus icon in the upper right of the nav bar.
-- Select `New repository`.
-- Fill in `Create a new repository` page:
-    - `Repository name`, since this will be your new example blog and be part of the URL, think a bit about what you want to call it. Use all lowercase, no spaces, and no weird characters. Dash (`-`) or underscore (`_`) are okay.
-    - Check the `Add a README file` option. 
-- Finally, click the green `Create repository` button. 
-
-Second, **activate GitHub Pages**:
-
-- Click the `Settings` tab.
-- Click `Pages` on the left menu.
-- Under `Source`, use the dropdown to select `main` branch and leave folder as `"/ (root)"`.
-- Click `Save`.
-
----------------
-
-## 2. Configure Site 
+## 1. Let's start to configure the site we just created
 
 The first step to starting a Jekyll project is to create `_config.yml`, which will contain site wide [configuration options](https://jekyllrb.com/docs/configuration/), variables, and settings.
 For example, config values such as `title` will be used to populate template elements throughout your final web site.
