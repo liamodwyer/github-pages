@@ -106,15 +106,7 @@ title: home page
 
 ## Welcome to my new blog!
 
-This is a site I built in a workshop with Liam. I am a researcher in DCU and my research areas are 
-- blah
-- blah
-- more blah
-
-This is my current mood:
-![A Cat pic from wikimedia](https://upload.wikimedia.org/wikipedia/commons/3/35/Angry_tiger.jpg)
-
-This blog is a journal of my research activities and some other things.
+This is a site I built in a workshop with Liam. I am a researcher in DCU and this is a journal of my research activities and some other things.
 
 ```
 
