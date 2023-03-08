@@ -68,9 +68,9 @@ remote_theme: jekyll/minima
 
 ----------
 
-## 3. Create a Home Page 
+### Create a Home Page 
 
-With the basics of our site set in `_config.yml`, next we will need a home page.
+With the basics of our site set in `_config.yml`, next we need a home page.
 
 For every page in the site, we need to create a content stub in Markdown or HTML with **YAML Front Matter**.
 During build, Jekyll will process all files with YAML front matter (even if its empty), rendering the Markdown and wrapping the content in the theme to generate the final HTML page. 
@@ -125,7 +125,7 @@ Look for the green check next to your commit history, then surf to the URL follo
 
 -----------
 
-## 4. Write Posts
+### Write Posts
 
 Blogs are made up of [Posts](https://jekyllrb.com/docs/posts/)... 
 and Jekyll has the concept built in to its default structure.
@@ -136,8 +136,6 @@ Each post must be given a filename following the pattern:
 `yyyy-mm-dd-title.md`
 
 For example, `"2020-10-31-happy-halloween.md"` or `"1990-01-01-first-day-of-www.md"`.
-
-### Create _posts
 
 - On your repository's home page, click the `"Add file"` button and select `"Create new file"`. 
 - Start by typing `_posts` followed by `/`. Adding the slash will automatically let GitHub know you want to create a new folder ("_posts"). 
@@ -177,6 +175,7 @@ A numbered list is created using a number + `.`, like:
 2. four
 
 ```
+----------
 
 ### Keep Posting, More Markdown
 
@@ -228,7 +227,9 @@ However, many sites will use *only* [Pages](https://jekyllrb.com/docs/pages/) fo
 
 We have already created `index.md`, so let's create the other *essential*, an About page.
 
-## 5. Create an 'About' page
+---------
+
+### Create an 'About' page
 
 - On your repository's home page, click `Add file` and select `Create new file`. 
 - Type in the name for your file: `about.md`
@@ -259,7 +260,9 @@ It is your opportunity to let us know all the details "about" your project:
 
 *Be sure to check out what your blog looks like with all this new content!*
 
-## 6. Customise the Theme
+----------
+
+### Customise the Theme
 
 In our site settings in our _config.yml file we used the Minima theme. 
 
