@@ -55,6 +55,7 @@ We will take a few of these in turn and look at how to customise them, mainly us
 - [Minimal Mistakes](https://github.com/mmistakes/mm-github-pages-starter)
 - a very popular github pages template
 - Edit _config.yml to personalise bio info and links
+- Also in _config.yml, in `default` > `values`, change some settings to false to make posts less bulky
 - Upload profile image
 - Edit _data/navigation.yml to remove categories and tags
 - *an academic profile template based on this this is also available: [academicpages.github.io](https://github.com/academicpages/academicpages.github.io)* 
