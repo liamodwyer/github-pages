@@ -62,6 +62,8 @@ We will take a few of these in turn and look at how to customise them, mainly us
 
 -----------
 
+<!--
+
 ###  Minimal Light (Template)
 
 ![Academic Pages Template](assets/images/minimalLight.png)
@@ -71,6 +73,8 @@ We will take a few of these in turn and look at how to customise them, mainly us
 
 -----------
 
+
+
 ### The Plain Academic (Template)
 
 ![Academic Pages Template](assets/images/plainOne.png)
@@ -79,6 +83,8 @@ We will take a few of these in turn and look at how to customise them, mainly us
 - Another academic-themed template
 
 -----------
+
+-->
 
 ### Academic Pages (Fork)
 
