@@ -9,9 +9,9 @@ date: 0000-01-01    # Page order is set by date
 ## Introduction
 
 Academic staff and researchers often want or need to create a website for different reasons:
-- research project 
+- collaborative research project 
 - open educational resource (OER)
-- a scholarly blog
+- scholarly blog
 
 In this workshop we'll work through the process of creating a site on [*GitHub Pages*](https://pages.github.com/), an accessible and free solution to making and hosting a website. 
 
