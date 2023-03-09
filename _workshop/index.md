@@ -1,5 +1,5 @@
 ---
-title: Create a Scholarly Website with Github Pages  # The title of the page
+title: Create a Website with Github Pages  # The title of the page
 nav: Intro & Setup
 date: 0000-01-01    # Page order is set by date
 ---
@@ -11,7 +11,6 @@ date: 0000-01-01    # Page order is set by date
 Academic staff and researchers often want or need to create a website for different reasons:
 - research project 
 - open educational resource (OER)
-- academic profile or CV
 - a scholarly blog
 
 In this workshop we'll work through the process of creating a site on [*GitHub Pages*](https://pages.github.com/), an accessible and free solution to making and hosting a website. 
